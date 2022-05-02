@@ -118,4 +118,11 @@ namespace ng
     {
         mPlayer.handleKeyboardInput(key, isPressed);
     }
+
+    void SimpleGame::update(const sf::Time& timeStep)
+    {
+        nero::Scene::update(timeStep);
+
+        mPlayer.update(timeStep);
+    }
 }

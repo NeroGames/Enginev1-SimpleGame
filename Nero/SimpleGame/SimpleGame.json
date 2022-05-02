@@ -7,7 +7,7 @@
       "draw_contact_impulse": false,
       "draw_contact_normals": false,
       "draw_contact_points": false,
-      "draw_grid": false,
+      "draw_grid": true,
       "draw_joints": true,
       "draw_profile": false,
       "draw_shapes": true,
@@ -104,11 +104,11 @@
          "default_rotation": 0.0,
          "default_zoom": 0.0,
          "position": {
-            "x": -53.3461608886719,
-            "y": 326.418212890625
+            "x": 844.740783691406,
+            "y": 326.590881347656
          },
          "rotation": 0.0,
-         "zoom": -80.0
+         "zoom": -55.0
       },
       "canvas_color": {
          "a": 255,

@@ -17,6 +17,7 @@ namespace ng
                                         SimpleGame(nero::Scene::Context context);
 	        virtual                    ~SimpleGame();
 	        virtual void                handleEvent(const sf::Event& event);
+	        virtual void                update(const sf::Time& timeStep);
 
 
         private:

@@ -42,6 +42,7 @@ namespace ng
 	    const std::string move_left          = "move_left";
 	    const std::string move_right         = "move_right";
 	    const std::string move_none          = "move_none";
+	    const std::string jump               = "jump";
 	};
 
 

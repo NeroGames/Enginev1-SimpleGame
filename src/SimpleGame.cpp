@@ -31,7 +31,7 @@ namespace ng
 
 	    log("checking Screen Objects ...");
 	    getObjectManager()->checkScreenObject(
-	    
+
 	       ScreenPool.startScreen,
 
 	       {
@@ -51,6 +51,12 @@ namespace ng
 	{
 	    log("SimpleGame Scene v0.1");
 
+	    //Init gamepad
+	    //setup game controller
+        mGamepadOne.setId(ng::Gamepad::ONE);
+        mGamepadOne.setButtonMapping(ng::JSPs4ButtonMapping);
+        mGamepadOne.setAxisMapping(ng::JSPs4AxisMapping);
+
 	    log("Setting up Collision rules ...");
 	    nero::CollisionRule collisionRule;
 	    collisionRule.canCollide(CategoryPool.player, CategoryPool.ground);
@@ -59,4 +65,39 @@ namespace ng
 	    log("Setting up the player ...");
     	mPlayer.setObject(getObjectManager()->findObject(ObjectPool.player));
 	}
+
+	void SimpleGame::handleEvent(const sf::Event& event)
+    {
+        Scene::handleEvent(event);
+
+        switch(event.type)
+        {
+            //Joystick
+            case sf::Event::JoystickConnected:
+                onJoystickConnection(event.joystickConnect.joystickId, true); break;
+            case sf::Event::JoystickDisconnected:
+                onJoystickConnection(event.joystickConnect.joystickId, false); break;
+            case sf::Event::JoystickButtonPressed:
+                onJoystickButton(event.joystickButton.joystickId, event.joystickButton.button, true); break;
+            case sf::Event::JoystickButtonReleased:
+                onJoystickButton(event.joystickButton.joystickId, event.joystickButton.button, false); break;
+            case sf::Event::JoystickMoved:
+                onJoystickAxis(event.joystickMove.joystickId, event.joystickMove.axis, event.joystickMove.position); break;
+        }
+    }
+
+    void SimpleGame::onJoystickConnection(const unsigned int& joystickId, const bool& connected)
+    {
+        log("onJoystickConnection");
+    }
+
+    void SimpleGame::onJoystickButton(const unsigned int& joystickId, const unsigned int& button, const bool& isPressed)
+    {
+        log("onJoystickButton");
+    }
+
+    void SimpleGame::onJoystickAxis(const unsigned int& joystickId, const sf::Joystick::Axis& axis, const float& position)
+    {
+        log("onJoystickAxis");
+    }
 }

@@ -74,3 +74,6 @@ Thumbs.db
 
 #qtcreator cmake file
 CMakeLists.txt.user
+
+#Codeblocks
+*.save

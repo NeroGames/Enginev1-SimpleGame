@@ -40,14 +40,14 @@
 		<Unit filename="icon.ico" />
 		<Unit filename="icon.png" />
 		<Unit filename="include/ConstantPool.h" />
+		<Unit filename="include/Gamepad.h" />
+		<Unit filename="include/GamepadUtil.h" />
 		<Unit filename="include/LoadingScreen.h" />
 		<Unit filename="include/Player.h" />
 		<Unit filename="include/Project.h" />
 		<Unit filename="include/SimpleGame.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="resources.rc">
-			<Option compilerVar="WINDRES" />
-		</Unit>
+		<Unit filename="src/Gamepad.cpp" />
 		<Unit filename="src/LoadingScreen.cpp" />
 		<Unit filename="src/Player.cpp" />
 		<Unit filename="src/SimpleGame.cpp" />

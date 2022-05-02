@@ -1,32 +1,53 @@
 # depslib dependency file v1.0
-1546040083 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\resources.rc
-
-1651452735 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\src\loadingscreen.cpp
+1651453847 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\main.cpp
+	<Nero/engine/Editor.h>
+	"SimpleGame.h"
+	<Nero/engine/RenderEngine.h>
+	"SimpleGame.h"
 	"LoadingScreen.h"
-	<Nero/utility/Utility.h>
+
+1651456007 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\simplegame.h
+	<Nero/scene/Scene.h>
+	"Player.h"
+	"Gamepad.h"
+
+1651452735 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\player.h
+	<Nero/gamelib.h>
+	<Nero/object/PhysicObject.h>
+
+1651455220 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\gamepad.h
+	<GamepadUtil.h>
+	<SFML/System/Vector2.hpp>
+
+1651455220 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\gamepadutil.h
+	<SFML/Window/Joystick.hpp>
+	<map>
 
 1651452734 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\loadingscreen.h
 	<Nero/engine/StartupScreen.h>
 	<SFML/Graphics/Texture.hpp>
 	<SFML/Graphics/Sprite.hpp>
 
+1546040083 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\resources.rc
+
+1651455220 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\src\gamepad.cpp
+	"Gamepad.h"
+	<cmath>
+	<Nero/utility/Utility.h>
+
+1651452735 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\src\loadingscreen.cpp
+	"LoadingScreen.h"
+	<Nero/utility/Utility.h>
+
 1651452735 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\src\player.cpp
 	"Player.h"
 	"ConstantPool.h"
 	<Nero/utility/Utility.h>
 
-1651452735 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\player.h
-	<Nero/gamelib.h>
-	<Nero/object/PhysicObject.h>
-
 1651452735 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\constantpool.h
 
-1651452734 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\src\simplegame.cpp
+1651456361 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\src\simplegame.cpp
 	"SimpleGame.h"
 	"ConstantPool.h"
 	<Nero/scene/CollisionRule.h>
-
-1651452734 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\simplegame.h
-	<Nero/scene/Scene.h>
-	"Player.h"
 

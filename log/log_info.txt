@@ -125,3 +125,601 @@
 2022-05-01 20:21:15,712 INFO [default] 
  ## -- Engine closed at 1/5/2022 20:21:15-- ###
 
+2022-05-01 20:24:40,909 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-01 20:24:40,909 INFO [default] nero development engine starting
+2022-05-01 20:24:40,909 INFO [default] loading engine configuration
+2022-05-01 20:24:40,909 INFO [default] setting up sfml render window
+2022-05-01 20:24:40,917 INFO [default] building startup screen
+2022-05-01 20:24:40,924 INFO [default] starting background task
+2022-05-01 20:24:41,063 INFO [default] building resource manager
+2022-05-01 20:24:41,065 INFO [default] loading font resources
+2022-05-01 20:24:41,065 INFO [default] Resource path : resource/font
+2022-05-01 20:24:41,066 INFO [default] loaded : Sansation
+2022-05-01 20:24:41,066 INFO [default] loading sound resources
+2022-05-01 20:24:41,066 INFO [default] resource path : resource/sound
+2022-05-01 20:24:41,067 INFO [default] loading music resources
+2022-05-01 20:24:41,067 INFO [default] Resource path : resource/music
+2022-05-01 20:24:41,067 INFO [default] loading texture resources
+2022-05-01 20:24:41,067 INFO [default] Resource path : resource/texture
+2022-05-01 20:24:41,067 INFO [default] loading animation resources
+2022-05-01 20:24:41,067 INFO [default] Resource path : resource/animation
+2022-05-01 20:24:41,068 INFO [default] building engine-ui
+2022-05-01 20:24:41,227 INFO [default] providing engine setting to engine-ui
+2022-05-01 20:24:41,227 INFO [default] providing resource manager to engine-ui
+2022-05-01 20:24:41,227 INFO [default] building engine interface
+2022-05-01 20:24:45,615 INFO [default] building camera
+2022-05-01 20:24:45,615 INFO [default] building scene manager
+2022-05-01 20:24:45,615 INFO [default] adjusting background task time
+2022-05-01 20:24:45,615 INFO [default] adding the default scene
+2022-05-01 20:24:45,615 INFO [default] registering all scenes
+2022-05-01 20:24:45,615 INFO [default] adding scene : SimpleGame
+2022-05-01 20:24:45,905 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-01 20:24:45,905 INFO [default] loading scene
+2022-05-01 20:24:45,906 INFO [default] loading scene
+2022-05-01 20:24:45,907 INFO [default] loading scene
+2022-05-01 20:24:45,908 INFO [default] scene registration complete
+2022-05-01 20:24:45,908 INFO [default] setting up the engine-ui
+2022-05-01 20:24:45,908 INFO [default] update engine-ui log
+2022-05-01 20:24:45,908 INFO [default] Nero Game Engine --- Log file 1/5/2022 20:24:45
+
+2022-05-01 20:24:45,908 INFO [default] Restoring last Scene
+2022-05-01 20:24:45,909 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-01 20:24:45,923 INFO [default] Background task completed
+2022-05-01 20:24:45,923 INFO [default] Nero Development Engine started successfully
+2022-05-01 20:44:28,847 INFO [default] closing the Engine
+2022-05-01 20:44:28,848 INFO [default] stopping music
+2022-05-01 20:44:28,848 INFO [default] saving Engine Settings
+2022-05-01 20:44:28,849 INFO [default] saving all Scenes
+2022-05-01 20:44:28,898 INFO [default] 
+ ## -- Engine closed at 1/5/2022 20:44:28-- ###
+
+2022-05-01 20:55:30,901 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-01 20:55:30,901 INFO [default] nero development engine starting
+2022-05-01 20:55:30,901 INFO [default] loading engine configuration
+2022-05-01 20:55:30,902 INFO [default] setting up sfml render window
+2022-05-01 20:55:30,909 INFO [default] building startup screen
+2022-05-01 20:55:30,914 INFO [default] starting background task
+2022-05-01 20:55:31,057 INFO [default] building resource manager
+2022-05-01 20:55:31,059 INFO [default] loading font resources
+2022-05-01 20:55:31,059 INFO [default] Resource path : resource/font
+2022-05-01 20:55:31,060 INFO [default] loaded : Sansation
+2022-05-01 20:55:31,060 INFO [default] loading sound resources
+2022-05-01 20:55:31,060 INFO [default] resource path : resource/sound
+2022-05-01 20:55:31,061 INFO [default] loading music resources
+2022-05-01 20:55:31,061 INFO [default] Resource path : resource/music
+2022-05-01 20:55:31,061 INFO [default] loading texture resources
+2022-05-01 20:55:31,061 INFO [default] Resource path : resource/texture
+2022-05-01 20:55:31,062 INFO [default] loading animation resources
+2022-05-01 20:55:31,062 INFO [default] Resource path : resource/animation
+2022-05-01 20:55:31,062 INFO [default] building engine-ui
+2022-05-01 20:55:31,225 INFO [default] providing engine setting to engine-ui
+2022-05-01 20:55:31,225 INFO [default] providing resource manager to engine-ui
+2022-05-01 20:55:31,225 INFO [default] building engine interface
+2022-05-01 20:55:36,026 INFO [default] building camera
+2022-05-01 20:55:36,026 INFO [default] building scene manager
+2022-05-01 20:55:36,026 INFO [default] adjusting background task time
+2022-05-01 20:55:36,026 INFO [default] adding the default scene
+2022-05-01 20:55:36,026 INFO [default] registering all scenes
+2022-05-01 20:55:36,026 INFO [default] adding scene : SimpleGame
+2022-05-01 20:55:36,327 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-01 20:55:36,327 INFO [default] loading scene
+2022-05-01 20:55:36,328 INFO [default] loading scene
+2022-05-01 20:55:36,329 INFO [default] loading scene
+2022-05-01 20:55:36,330 INFO [default] scene registration complete
+2022-05-01 20:55:36,330 INFO [default] setting up the engine-ui
+2022-05-01 20:55:36,330 INFO [default] update engine-ui log
+2022-05-01 20:55:36,331 INFO [default] Nero Game Engine --- Log file 1/5/2022 20:55:36
+
+2022-05-01 20:55:36,331 INFO [default] Restoring last Scene
+2022-05-01 20:55:36,331 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-01 20:55:36,345 INFO [default] Background task completed
+2022-05-01 20:55:36,345 INFO [default] Nero Development Engine started successfully
+2022-05-01 20:55:39,927 INFO [default] playing [SimpleGame]
+2022-05-01 20:55:39,929 INFO [default] checking Scene Objects ...
+2022-05-01 20:55:39,929 INFO [default] checking World Objects ...
+2022-05-01 20:55:39,930 INFO [default] checking Screen Objects ...
+2022-05-01 20:55:39,930 INFO [default] SimpleGame Scene v0.1
+2022-05-01 20:55:39,930 INFO [default] Setting up Collision rules ...
+2022-05-01 20:55:39,931 INFO [default] Setting up the player ...
+2022-05-01 20:55:39,931 INFO [default] current mode : Scene - Play
+2022-05-01 20:55:40,034 INFO [default] onJoystickAxis
+2022-05-01 20:55:40,053 INFO [default] onJoystickAxis
+2022-05-01 20:55:40,448 INFO [default] onJoystickAxis
+2022-05-01 20:55:40,513 INFO [default] onJoystickAxis
+2022-05-01 20:55:40,548 INFO [default] onJoystickAxis
+2022-05-01 20:55:40,584 INFO [default] onJoystickAxis
+2022-05-01 20:55:40,800 INFO [default] onJoystickAxis
+2022-05-01 20:55:40,802 INFO [default] onJoystickAxis
+2022-05-01 20:55:40,997 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,064 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,081 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,128 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,153 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,154 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,218 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,235 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,262 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,263 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,320 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,321 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,385 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,393 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,531 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,564 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,584 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,598 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,615 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,651 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,684 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,765 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,781 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,804 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,867 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,897 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,915 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,932 INFO [default] onJoystickAxis
+2022-05-01 20:55:41,984 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,032 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,145 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,169 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,171 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,217 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,232 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,284 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,285 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,305 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,315 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,331 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,350 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,364 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,514 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,532 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,596 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,617 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,783 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,784 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,804 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,815 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,840 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,889 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,906 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,927 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,928 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,947 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,948 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,968 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,969 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,971 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,992 INFO [default] onJoystickAxis
+2022-05-01 20:55:42,994 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,011 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,013 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,033 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,035 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,053 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,054 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,067 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,084 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,086 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,107 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,109 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,133 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,135 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,299 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,317 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,340 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,353 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,354 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,372 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,374 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,394 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,396 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,415 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,452 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,471 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,473 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,492 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,493 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,513 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,515 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,535 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,537 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,558 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,560 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,580 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,763 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,784 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,809 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,833 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,853 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,868 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,870 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,894 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,896 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,919 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,934 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,936 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,961 INFO [default] onJoystickAxis
+2022-05-01 20:55:43,963 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,099 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,125 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,141 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,144 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,166 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,194 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,196 INFO [default] onJoystickButton
+2022-05-01 20:55:44,213 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,239 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,313 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,336 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,338 INFO [default] onJoystickButton
+2022-05-01 20:55:44,356 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,392 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,419 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,436 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,463 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,534 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,563 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,710 INFO [default] onJoystickAxis
+2022-05-01 20:55:44,727 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,048 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,072 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,090 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,112 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,130 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,132 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,157 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,159 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,193 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,195 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,226 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,228 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,247 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,289 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,314 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,344 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,363 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,389 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,504 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,538 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,564 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,594 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,613 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,616 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,645 INFO [default] onJoystickAxis
+2022-05-01 20:55:45,665 INFO [default] onJoystickAxis
+2022-05-01 20:55:46,339 INFO [default] onJoystickAxis
+2022-05-01 20:55:46,485 INFO [default] onJoystickAxis
+2022-05-01 20:55:47,140 INFO [default] onJoystickAxis
+2022-05-01 20:55:47,142 INFO [default] onJoystickButton
+2022-05-01 20:55:47,145 INFO [default] onJoystickAxis
+2022-05-01 20:55:47,341 INFO [default] onJoystickAxis
+2022-05-01 20:55:47,344 INFO [default] onJoystickAxis
+2022-05-01 20:55:47,375 INFO [default] onJoystickAxis
+2022-05-01 20:55:47,378 INFO [default] onJoystickButton
+2022-05-01 20:55:48,768 INFO [default] onJoystickButton
+2022-05-01 20:55:48,952 INFO [default] onJoystickButton
+2022-05-01 20:55:49,818 INFO [default] onJoystickAxis
+2022-05-01 20:55:49,821 INFO [default] onJoystickButton
+2022-05-01 20:55:49,823 INFO [default] onJoystickAxis
+2022-05-01 20:55:49,856 INFO [default] onJoystickAxis
+2022-05-01 20:55:49,985 INFO [default] onJoystickAxis
+2022-05-01 20:55:50,018 INFO [default] onJoystickAxis
+2022-05-01 20:55:50,038 INFO [default] onJoystickAxis
+2022-05-01 20:55:50,041 INFO [default] onJoystickButton
+2022-05-01 20:55:50,352 INFO [default] onJoystickButton
+2022-05-01 20:55:50,524 INFO [default] onJoystickButton
+2022-05-01 20:55:50,939 INFO [default] onJoystickAxis
+2022-05-01 20:55:50,941 INFO [default] onJoystickButton
+2022-05-01 20:55:50,945 INFO [default] onJoystickAxis
+2022-05-01 20:55:50,973 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,065 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,067 INFO [default] onJoystickButton
+2022-05-01 20:55:51,098 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,119 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,122 INFO [default] onJoystickButton
+2022-05-01 20:55:51,151 INFO [default] onJoystickButton
+2022-05-01 20:55:51,420 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,423 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,446 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,475 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,497 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,519 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,551 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,622 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,625 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,660 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,873 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,876 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,906 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,909 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,932 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,965 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,968 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,971 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,974 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,997 INFO [default] onJoystickAxis
+2022-05-01 20:55:51,999 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,022 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,057 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,060 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,063 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,086 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,108 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,132 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,135 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,337 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,371 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,374 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,377 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,380 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,407 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,442 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,446 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,449 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,473 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,498 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,501 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,504 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,536 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,561 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,585 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,589 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,592 INFO [default] onJoystickAxis
+2022-05-01 20:55:52,595 INFO [default] onJoystickAxis
+2022-05-01 20:55:56,484 INFO [default] closing the Engine
+2022-05-01 20:55:56,487 INFO [default] stopping music
+2022-05-01 20:55:56,490 INFO [default] saving Engine Settings
+2022-05-01 20:55:56,493 INFO [default] saving all Scenes
+2022-05-01 20:55:56,574 INFO [default] 
+ ## -- Engine closed at 1/5/2022 20:55:56-- ###
+
+2022-05-01 21:05:35,630 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-01 21:05:35,630 INFO [default] nero development engine starting
+2022-05-01 21:05:35,630 INFO [default] loading engine configuration
+2022-05-01 21:05:35,631 INFO [default] setting up sfml render window
+2022-05-01 21:05:35,637 INFO [default] building startup screen
+2022-05-01 21:05:35,642 INFO [default] starting background task
+2022-05-01 21:05:35,773 INFO [default] building resource manager
+2022-05-01 21:05:35,775 INFO [default] loading font resources
+2022-05-01 21:05:35,775 INFO [default] Resource path : resource/font
+2022-05-01 21:05:35,777 INFO [default] loaded : Sansation
+2022-05-01 21:05:35,778 INFO [default] loading sound resources
+2022-05-01 21:05:35,778 INFO [default] resource path : resource/sound
+2022-05-01 21:05:35,778 INFO [default] loading music resources
+2022-05-01 21:05:35,778 INFO [default] Resource path : resource/music
+2022-05-01 21:05:35,778 INFO [default] loading texture resources
+2022-05-01 21:05:35,778 INFO [default] Resource path : resource/texture
+2022-05-01 21:05:35,779 INFO [default] loading animation resources
+2022-05-01 21:05:35,779 INFO [default] Resource path : resource/animation
+2022-05-01 21:05:35,779 INFO [default] building engine-ui
+2022-05-01 21:05:35,949 INFO [default] providing engine setting to engine-ui
+2022-05-01 21:05:35,949 INFO [default] providing resource manager to engine-ui
+2022-05-01 21:05:35,949 INFO [default] building engine interface
+2022-05-01 21:05:41,009 INFO [default] building camera
+2022-05-01 21:05:41,009 INFO [default] building scene manager
+2022-05-01 21:05:41,009 INFO [default] adjusting background task time
+2022-05-01 21:05:41,009 INFO [default] adding the default scene
+2022-05-01 21:05:41,009 INFO [default] registering all scenes
+2022-05-01 21:05:41,009 INFO [default] adding scene : SimpleGame
+2022-05-01 21:05:41,301 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-01 21:05:41,301 INFO [default] loading scene
+2022-05-01 21:05:41,302 INFO [default] loading scene
+2022-05-01 21:05:41,304 INFO [default] loading scene
+2022-05-01 21:05:41,304 INFO [default] scene registration complete
+2022-05-01 21:05:41,304 INFO [default] setting up the engine-ui
+2022-05-01 21:05:41,305 INFO [default] update engine-ui log
+2022-05-01 21:05:41,305 INFO [default] Nero Game Engine --- Log file 1/5/2022 21:5:41
+
+2022-05-01 21:05:41,305 INFO [default] Restoring last Scene
+2022-05-01 21:05:41,305 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-01 21:05:41,323 INFO [default] Background task completed
+2022-05-01 21:05:41,323 INFO [default] Nero Development Engine started successfully
+2022-05-01 21:05:48,762 INFO [default] playing [SimpleGame]
+2022-05-01 21:05:48,763 INFO [default] checking Scene Objects ...
+2022-05-01 21:05:48,764 INFO [default] checking World Objects ...
+2022-05-01 21:05:48,764 INFO [default] checking Screen Objects ...
+2022-05-01 21:05:48,764 INFO [default] SimpleGame Scene v0.1
+2022-05-01 21:05:48,765 INFO [default] Setting up Collision rules ...
+2022-05-01 21:05:48,765 INFO [default] Setting up the player ...
+2022-05-01 21:05:48,765 INFO [default] current mode : Scene - Play
+2022-05-01 21:05:51,448 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,449 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,463 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,464 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,480 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,481 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,509 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,510 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,561 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,581 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,582 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,595 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,597 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,598 INFO [default] onJoystickAxis
+2022-05-01 21:05:51,615 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,433 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,435 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,449 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,450 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,468 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,469 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,512 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,532 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,534 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,550 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,552 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,579 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,580 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,601 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,602 INFO [default] onJoystickAxis
+2022-05-01 21:05:53,611 INFO [default] onJoystickAxis
+2022-05-01 21:05:54,899 INFO [default] onJoystickAxis
+2022-05-01 21:05:54,995 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,110 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,133 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,134 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,149 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,151 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,152 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,172 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,174 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,211 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,212 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,232 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,234 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,248 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,264 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,298 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,317 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,318 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,339 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,341 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,351 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,353 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,680 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,700 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,717 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,759 INFO [default] onJoystickAxis
+2022-05-01 21:05:55,964 INFO [default] onJoystickAxis
+2022-05-01 21:05:56,066 INFO [default] onJoystickAxis
+2022-05-01 21:05:56,083 INFO [default] onJoystickAxis
+2022-05-01 21:05:56,100 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,416 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,431 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,451 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,453 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,464 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,466 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,486 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,488 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,499 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,501 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,517 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,519 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,532 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,533 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,554 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,556 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,576 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,578 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,600 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,602 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,615 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,632 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,634 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,657 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,659 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,661 INFO [default] onJoystickAxis
+2022-05-01 21:05:58,663 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,229 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,248 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,250 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,274 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,299 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,432 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,455 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,475 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,851 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,853 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,876 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,878 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,880 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,882 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,906 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,908 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,922 INFO [default] onJoystickAxis
+2022-05-01 21:05:59,924 INFO [default] onJoystickAxis
+2022-05-01 21:06:00,016 INFO [default] onJoystickAxis
+2022-05-01 21:06:00,041 INFO [default] onJoystickAxis
+2022-05-01 21:06:00,043 INFO [default] onJoystickAxis
+2022-05-01 21:06:00,059 INFO [default] onJoystickAxis
+2022-05-01 21:06:01,235 INFO [default] onJoystickButton
+2022-05-01 21:06:01,446 INFO [default] onJoystickButton
+2022-05-01 21:06:02,700 INFO [default] onJoystickButton
+2022-05-01 21:06:02,835 INFO [default] onJoystickButton
+2022-05-01 21:06:03,396 INFO [default] onJoystickButton
+2022-05-01 21:06:03,726 INFO [default] onJoystickButton
+2022-05-01 21:06:03,897 INFO [default] onJoystickAxis
+2022-05-01 21:06:03,900 INFO [default] onJoystickButton
+2022-05-01 21:06:03,925 INFO [default] onJoystickAxis
+2022-05-01 21:06:04,034 INFO [default] onJoystickAxis
+2022-05-01 21:06:04,056 INFO [default] onJoystickAxis
+2022-05-01 21:06:04,058 INFO [default] onJoystickButton
+2022-05-01 21:06:04,614 INFO [default] onJoystickAxis
+2022-05-01 21:06:04,617 INFO [default] onJoystickButton
+2022-05-01 21:06:04,640 INFO [default] onJoystickAxis
+2022-05-01 21:06:04,802 INFO [default] onJoystickAxis
+2022-05-01 21:06:04,818 INFO [default] onJoystickAxis
+2022-05-01 21:06:04,820 INFO [default] onJoystickAxis
+2022-05-01 21:06:04,822 INFO [default] onJoystickButton
+2022-05-01 21:06:05,085 INFO [default] onJoystickAxis
+2022-05-01 21:06:05,088 INFO [default] onJoystickButton
+2022-05-01 21:06:05,090 INFO [default] onJoystickAxis
+2022-05-01 21:06:05,118 INFO [default] onJoystickAxis
+2022-05-01 21:06:05,136 INFO [default] onJoystickAxis
+2022-05-01 21:06:05,158 INFO [default] onJoystickAxis
+2022-05-01 21:06:05,175 INFO [default] onJoystickAxis
+2022-05-01 21:06:05,204 INFO [default] onJoystickAxis
+2022-05-01 21:06:05,354 INFO [default] onJoystickAxis
+2022-05-01 21:06:05,372 INFO [default] onJoystickAxis
+2022-05-01 21:06:05,374 INFO [default] onJoystickButton
+2022-05-01 21:06:07,198 INFO [default] onJoystickAxis
+2022-05-01 21:06:07,201 INFO [default] onJoystickButton
+2022-05-01 21:06:07,203 INFO [default] onJoystickAxis
+2022-05-01 21:06:07,348 INFO [default] onJoystickAxis
+2022-05-01 21:06:07,351 INFO [default] onJoystickAxis
+2022-05-01 21:06:07,353 INFO [default] onJoystickButton
+2022-05-01 21:06:07,549 INFO [default] onJoystickAxis
+2022-05-01 21:06:07,551 INFO [default] onJoystickButton
+2022-05-01 21:06:07,576 INFO [default] onJoystickAxis
+2022-05-01 21:06:07,578 INFO [default] onJoystickAxis
+2022-05-01 21:06:07,681 INFO [default] onJoystickAxis
+2022-05-01 21:06:07,711 INFO [default] onJoystickAxis
+2022-05-01 21:06:07,713 INFO [default] onJoystickButton
+2022-05-01 21:06:08,280 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,283 INFO [default] onJoystickButton
+2022-05-01 21:06:08,307 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,419 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,437 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,440 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,442 INFO [default] onJoystickButton
+2022-05-01 21:06:08,636 INFO [default] onJoystickButton
+2022-05-01 21:06:08,785 INFO [default] onJoystickButton
+2022-05-01 21:06:08,935 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,955 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,957 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,960 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,962 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,992 INFO [default] onJoystickAxis
+2022-05-01 21:06:08,995 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,015 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,018 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,037 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,039 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,072 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,075 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,105 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,125 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,128 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,147 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,150 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,176 INFO [default] onJoystickAxis
+2022-05-01 21:06:09,453 INFO [default] onJoystickButton
+2022-05-01 21:06:09,485 INFO [default] onJoystickButton
+2022-05-01 21:06:09,540 INFO [default] onJoystickButton
+2022-05-01 21:06:09,602 INFO [default] onJoystickButton
+2022-05-01 21:06:09,605 INFO [default] onJoystickButton
+2022-05-01 21:06:09,651 INFO [default] onJoystickButton
+2022-05-01 21:06:09,715 INFO [default] onJoystickButton
+2022-05-01 21:06:09,853 INFO [default] onJoystickButton
+2022-05-01 21:06:13,215 INFO [default] closing the Engine
+2022-05-01 21:06:13,217 INFO [default] stopping music
+2022-05-01 21:06:13,219 INFO [default] saving Engine Settings
+2022-05-01 21:06:13,222 INFO [default] saving all Scenes
+2022-05-01 21:06:13,309 INFO [default] 
+ ## -- Engine closed at 1/5/2022 21:6:13-- ###
+

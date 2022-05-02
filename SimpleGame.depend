@@ -1,19 +1,20 @@
 # depslib dependency file v1.0
-1651453847 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\main.cpp
+1651457083 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\main.cpp
 	<Nero/engine/Editor.h>
 	"SimpleGame.h"
 	<Nero/engine/RenderEngine.h>
 	"SimpleGame.h"
 	"LoadingScreen.h"
 
-1651456007 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\simplegame.h
+1651457585 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\simplegame.h
 	<Nero/scene/Scene.h>
 	"Player.h"
 	"Gamepad.h"
 
-1651452735 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\player.h
+1651459219 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\player.h
 	<Nero/gamelib.h>
 	<Nero/object/PhysicObject.h>
+	"Gamepad.h"
 
 1651455220 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\gamepad.h
 	<GamepadUtil.h>
@@ -39,14 +40,14 @@
 	"LoadingScreen.h"
 	<Nero/utility/Utility.h>
 
-1651452735 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\src\player.cpp
+1651458936 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\src\player.cpp
 	"Player.h"
 	"ConstantPool.h"
 	<Nero/utility/Utility.h>
 
 1651452735 c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\include\constantpool.h
 
-1651456361 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\src\simplegame.cpp
+1651459192 source:c:\users\sk-landry\desktop\nero-game-engine-r1.0.7\projects\simplegame\src\simplegame.cpp
 	"SimpleGame.h"
 	"ConstantPool.h"
 	<Nero/scene/CollisionRule.h>

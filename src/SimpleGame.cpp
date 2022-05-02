@@ -64,6 +64,8 @@ namespace ng
 
 	    log("Setting up the player ...");
     	mPlayer.setObject(getObjectManager()->findObject(ObjectPool.player));
+    	mPlayer.setLog(getLog());
+    	setCameraTarget(getObjectManager()->findObject(ObjectPool.player));
 	}
 
 	void SimpleGame::handleEvent(const sf::Event& event)
@@ -88,16 +90,32 @@ namespace ng
 
     void SimpleGame::onJoystickConnection(const unsigned int& joystickId, const bool& connected)
     {
-        log("onJoystickConnection");
+        if(mGamepadOne.getId() == joystickId)
+        {
+            //
+        }
     }
 
     void SimpleGame::onJoystickButton(const unsigned int& joystickId, const unsigned int& button, const bool& isPressed)
     {
-        log("onJoystickButton");
+        if(mGamepadOne.getId() == joystickId)
+        {
+            ng::JSButton jsButton = mGamepadOne.getButton(button);
+            mPlayer.onJoystickButton(jsButton, isPressed);
+        }
     }
 
     void SimpleGame::onJoystickAxis(const unsigned int& joystickId, const sf::Joystick::Axis& axis, const float& position)
     {
-        log("onJoystickAxis");
+        if(mGamepadOne.getId() == joystickId)
+        {
+            ng::JSAxis jsAxis = mGamepadOne.getAxis(axis);
+            mPlayer.onJoystickAxis(jsAxis, position);
+        }
+    }
+
+    void SimpleGame::handleKeyboardInput(const sf::Keyboard::Key& key, const bool& isPressed)
+    {
+        mPlayer.handleKeyboardInput(key, isPressed);
     }
 }

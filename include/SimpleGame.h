@@ -20,10 +20,13 @@ namespace ng
 
 
         private:
-                //joystick
+            //joystick
             virtual void                onJoystickConnection(const unsigned int& joystickId, const bool& connected);
             virtual void                onJoystickButton(const unsigned int& joystickId, const unsigned int& button, const bool& isPressed);
             virtual void                onJoystickAxis(const unsigned int& joystickId, const sf::Joystick::Axis& axis, const float& position);
+            //keyboard
+            virtual void                handleKeyboardInput(const sf::Keyboard::Key& key, const bool& isPressed);
+
 
 	    protected:
 	        void                        init();

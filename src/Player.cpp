@@ -33,6 +33,32 @@ namespace ng
 	    //update parent
 	    nero::PhysicActionObject::update(timeStep);
 	}
+
+	void Player::onJoystickButton(const ng::JSButton& jsButton, const bool& isPressed)
+	{
+        log(ng::JString(jsButton) + " " + _se(isPressed));
+	}
+
+    void Player::onJoystickAxis(const ng::JSAxis& jsAxis , const float& position)
+    {
+        if(abs(position) > 10.f)
+            log(ng::JString(jsAxis) + " " + _se(position));
+    }
+
+    void Player::setLog(std::function< void(const std::string &, int)> log)
+    {
+        mLog = log;
+    }
+
+    void Player::log(const std::string& message)
+    {
+        mLog(message, nero::Log::Info);
+    }
+
+    void Player::handleKeyboardInput(const sf::Keyboard::Key& key, const bool& isPressed)
+    {
+
+    }
 }
 
 

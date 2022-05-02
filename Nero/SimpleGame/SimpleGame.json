@@ -7,7 +7,7 @@
       "draw_contact_impulse": false,
       "draw_contact_normals": false,
       "draw_contact_points": false,
-      "draw_grid": true,
+      "draw_grid": false,
       "draw_joints": true,
       "draw_profile": false,
       "draw_shapes": true,
@@ -104,7 +104,7 @@
          "default_rotation": 0.0,
          "default_zoom": 0.0,
          "position": {
-            "x": 400.0,
+            "x": 574.992919921875,
             "y": 303.0
          },
          "rotation": 0.0,
@@ -140,19 +140,273 @@
       "layer_table": [
          {
             "category": "no_category",
-            "child_count": 0,
+            "child_count": 6,
             "first_type": "layer_object",
             "is_selectable": true,
             "is_selected": true,
             "is_updateable": true,
             "is_visible": true,
+            "mesh_table": [
+               {
+                  "category": "ground",
+                  "child_count": 0,
+                  "first_type": "mesh_object",
+                  "is_selectable": true,
+                  "is_selected": false,
+                  "is_updateable": true,
+                  "is_visible": true,
+                  "mesh": {
+                     "allow_sleep": true,
+                     "density": 1.0,
+                     "fixed_rotation": false,
+                     "friction": 0.100000001490116,
+                     "gravity_scale": 3.0,
+                     "is_sensor": false,
+                     "is_valid": true,
+                     "restitution": 0.100000001490116,
+                     "shape": "line_mesh",
+                     "type": "static_mesh",
+                     "vertex_count": 2,
+                     "vertex_table": [
+                        {
+                           "order": 0,
+                           "x": -653.818603515625,
+                           "y": 606.355651855469
+                        },
+                        {
+                           "order": 1,
+                           "x": 2068.85205078125,
+                           "y": 606.355590820312
+                        }
+                     ]
+                  },
+                  "name": "no_name",
+                  "object_id": 1,
+                  "second_type": "mesh_object"
+               },
+               {
+                  "category": "player",
+                  "child_count": 0,
+                  "first_type": "mesh_object",
+                  "is_selectable": true,
+                  "is_selected": false,
+                  "is_updateable": true,
+                  "is_visible": true,
+                  "mesh": {
+                     "allow_sleep": true,
+                     "density": 1.0,
+                     "fixed_rotation": false,
+                     "friction": 0.100000001490116,
+                     "gravity_scale": 3.0,
+                     "is_sensor": false,
+                     "is_valid": true,
+                     "restitution": 0.100000001490116,
+                     "shape": "circle_mesh",
+                     "type": "dynamic_mesh",
+                     "vertex_count": 2,
+                     "vertex_table": [
+                        {
+                           "order": 0,
+                           "x": -203.346160888672,
+                           "y": 569.4130859375
+                        },
+                        {
+                           "order": 1,
+                           "x": -173.821624755859,
+                           "y": 569.4130859375
+                        }
+                     ]
+                  },
+                  "name": "player",
+                  "object_id": 3,
+                  "second_type": "mesh_object"
+               },
+               {
+                  "category": "ground",
+                  "child_count": 0,
+                  "first_type": "mesh_object",
+                  "is_selectable": true,
+                  "is_selected": false,
+                  "is_updateable": true,
+                  "is_visible": true,
+                  "mesh": {
+                     "allow_sleep": true,
+                     "density": 1.0,
+                     "fixed_rotation": false,
+                     "friction": 0.100000001490116,
+                     "gravity_scale": 3.0,
+                     "is_sensor": false,
+                     "is_valid": true,
+                     "restitution": 0.100000001490116,
+                     "shape": "line_mesh",
+                     "type": "static_mesh",
+                     "vertex_count": 2,
+                     "vertex_table": [
+                        {
+                           "order": 0,
+                           "x": 552.144470214844,
+                           "y": 376.1748046875
+                        },
+                        {
+                           "order": 1,
+                           "x": 791.305419921875,
+                           "y": 376.1748046875
+                        }
+                     ]
+                  },
+                  "name": "no_name",
+                  "object_id": 4,
+                  "second_type": "mesh_object"
+               },
+               {
+                  "category": "collectible",
+                  "child_count": 0,
+                  "first_type": "mesh_object",
+                  "is_selectable": true,
+                  "is_selected": false,
+                  "is_updateable": true,
+                  "is_visible": true,
+                  "mesh": {
+                     "allow_sleep": true,
+                     "density": 1.0,
+                     "fixed_rotation": false,
+                     "friction": 0.100000001490116,
+                     "gravity_scale": 3.0,
+                     "is_sensor": false,
+                     "is_valid": true,
+                     "restitution": 0.100000001490116,
+                     "shape": "polygon_mesh",
+                     "type": "kinematic_mesh",
+                     "vertex_count": 4,
+                     "vertex_table": [
+                        {
+                           "order": 0,
+                           "x": 699.907958984375,
+                           "y": 368.755950927734
+                        },
+                        {
+                           "order": 1,
+                           "x": 649.385559082031,
+                           "y": 368.755950927734
+                        },
+                        {
+                           "order": 2,
+                           "x": 649.385559082031,
+                           "y": 318.233642578125
+                        },
+                        {
+                           "order": 3,
+                           "x": 699.907958984375,
+                           "y": 318.233642578125
+                        }
+                     ]
+                  },
+                  "name": "door_key",
+                  "object_id": 5,
+                  "second_type": "mesh_object"
+               },
+               {
+                  "category": "door",
+                  "child_count": 0,
+                  "first_type": "mesh_object",
+                  "is_selectable": true,
+                  "is_selected": false,
+                  "is_updateable": true,
+                  "is_visible": true,
+                  "mesh": {
+                     "allow_sleep": true,
+                     "density": 1.0,
+                     "fixed_rotation": false,
+                     "friction": 0.100000001490116,
+                     "gravity_scale": 3.0,
+                     "is_sensor": false,
+                     "is_valid": true,
+                     "restitution": 0.100000001490116,
+                     "shape": "polygon_mesh",
+                     "type": "kinematic_mesh",
+                     "vertex_count": 4,
+                     "vertex_table": [
+                        {
+                           "order": 0,
+                           "x": 1554.86694335938,
+                           "y": 604.768493652344
+                        },
+                        {
+                           "order": 1,
+                           "x": 1520.67834472656,
+                           "y": 604.768432617188
+                        },
+                        {
+                           "order": 2,
+                           "x": 1520.67834472656,
+                           "y": 285.405517578125
+                        },
+                        {
+                           "order": 3,
+                           "x": 1554.86694335938,
+                           "y": 285.405578613281
+                        }
+                     ]
+                  },
+                  "name": "treasure_doo",
+                  "object_id": 6,
+                  "second_type": "mesh_object"
+               },
+               {
+                  "category": "collectible",
+                  "child_count": 0,
+                  "first_type": "mesh_object",
+                  "is_selectable": true,
+                  "is_selected": false,
+                  "is_updateable": true,
+                  "is_visible": true,
+                  "mesh": {
+                     "allow_sleep": true,
+                     "density": 1.0,
+                     "fixed_rotation": false,
+                     "friction": 0.100000001490116,
+                     "gravity_scale": 3.0,
+                     "is_sensor": false,
+                     "is_valid": true,
+                     "restitution": 0.100000001490116,
+                     "shape": "polygon_mesh",
+                     "type": "kinematic_mesh",
+                     "vertex_count": 4,
+                     "vertex_table": [
+                        {
+                           "order": 0,
+                           "x": 1887.94909667969,
+                           "y": 606.189392089844
+                        },
+                        {
+                           "order": 1,
+                           "x": 1754.42028808594,
+                           "y": 606.189392089844
+                        },
+                        {
+                           "order": 2,
+                           "x": 1754.42028808594,
+                           "y": 535.478698730469
+                        },
+                        {
+                           "order": 3,
+                           "x": 1887.94909667969,
+                           "y": 535.478698730469
+                        }
+                     ]
+                  },
+                  "name": "treasure",
+                  "object_id": 7,
+                  "second_type": "mesh_object"
+               }
+            ],
             "name": "Layer 1",
             "object_id": 0,
             "order": 0,
-            "second_type": "none",
-            "type": "empty_layer"
+            "second_type": "mesh_object",
+            "type": "mesh_layer"
          }
       ],
-      "object_count": 1
+      "object_count": 8
    }
 }

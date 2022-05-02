@@ -14,7 +14,7 @@
 
     int main()
     {
-        nero::Editor editor(1305);
+        nero::Editor editor(1900);
             editor.addScene<ng::SimpleGame>("SimpleGame");
         editor.run();
 
@@ -22,7 +22,7 @@
     }
 
 #else
-    
+
     #include <Nero/engine/RenderEngine.h>
     #include "SimpleGame.h"
     #include "LoadingScreen.h"

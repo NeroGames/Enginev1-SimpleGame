@@ -45,12 +45,12 @@ namespace ng
         //Move Action
 	    if(mIsMovingLeft && std::abs(mPhysic->getLinearVelocity().x) < 90.f)
 	    {
-           log("moving left");
+           //log("moving left");
 	       callAction(PlayerActionPool.move_left);
 	    }
 	    else if(mIsMovingRight && std::abs(mPhysic->getLinearVelocity().x) < 90.f)
 	    {
-	        log("moving right");
+	        //log("moving right");
 	        callAction(PlayerActionPool.move_right);
 	    }
 	}
@@ -58,12 +58,37 @@ namespace ng
 	void Player::onJoystickButton(const ng::JSButton& jsButton, const bool& isPressed)
 	{
         log(ng::JString(jsButton) + " " + _se(isPressed));
+
+        if(isPressed)
+        {
+            if(jsButton == ng::JSButton::Cross)
+            {
+                jump();
+            }
+        }
 	}
 
     void Player::onJoystickAxis(const ng::JSAxis& jsAxis , const float& position)
     {
-        if(abs(position) > 10.f)
-            log(ng::JString(jsAxis) + " " + _se(position));
+        /*if(abs(position) > 90.f)
+            log(ng::JString(jsAxis) + " " + _se(position));*/
+
+        if(jsAxis == ng::JSAxis::LeftAnalogX)
+        {
+            if(position < -90.f)
+            {
+                moveLeft();
+            }
+            else if (position > 90.f)
+            {
+                moveRight();
+            }
+            else
+            {
+                moveNone();
+            }
+        }
+
     }
 
     void Player::setLog(std::function< void(const std::string &, int)> log)

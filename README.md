@@ -12,7 +12,7 @@ Add simple game objects onto your Scene using Meshes. Then for each object, set 
 
 ### Unsing the Gamepad (PS4)
 
-## Part 3 - Collision and detection
+## Part 3 - Handle Collisions
 
 ## Part 4 - Add the Sound
 

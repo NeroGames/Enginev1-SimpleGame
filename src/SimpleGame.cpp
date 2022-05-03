@@ -60,6 +60,8 @@ namespace ng
 	    log("Setting up Collision rules ...");
 	    nero::CollisionRule collisionRule;
 	    collisionRule.canCollide(CategoryPool.player, CategoryPool.ground);
+	    collisionRule.canCollide(CategoryPool.player, CategoryPool.door);
+	    collisionRule.canCollide(CategoryPool.player, CategoryPool.collectible);
 	    collisionRule.apply(getWorld());
 
 	    log("Setting up the player ...");

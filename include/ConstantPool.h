@@ -10,16 +10,18 @@ namespace ng
 	struct _ObjectPool
 	{
 		//Player
-	    const std::string player			= "player";
+	    const std::string player			    = "player";
 	};
 
 	struct _CategoryPool
 	{
-	    const std::string player             = "player";
-	    const std::string ground             = "ground";
-	    const std::string wall               = "wall";
-	    const std::string power              = "power";
-	    const std::string platform           = "platform";
+	    const std::string player                = "player";
+	    const std::string ground                = "ground";
+	    const std::string wall                  = "wall";
+	    const std::string power                 = "power";
+	    const std::string platform              = "platform";
+	    const std::string door                  = "door";
+	    const std::string collectible           = "collectible";
 	};
 
 	struct _SoundPool

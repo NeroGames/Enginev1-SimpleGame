@@ -32,6 +32,11 @@ namespace ng
             void                        moveNone();
             void                        jump();
             void                        resetJump();
+            //pickup
+            void                        setHasKey(const bool& flag);
+            bool                        hasKey() const;
+            void                        setHasTreasure(const bool& flag);
+            bool                        hasTreasure() const;
 
 	    private:
 	        nero::PhysicObject::Ptr		                        mPhysic;
@@ -41,6 +46,8 @@ namespace ng
 	        bool                                                mIsMovingLeft;
 	        bool                                                mIsMovingRight;
 	        bool                                                mIsJumping;
+	        bool                                                mHasKey;
+	        bool                                                mHasTreasure;
 	};
 }
 

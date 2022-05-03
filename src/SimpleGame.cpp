@@ -127,4 +127,35 @@ namespace ng
 
         mPlayer.update(timeStep);
     }
+
+    void SimpleGame::handleCollisionContactBegin(nero::Collision collision)
+	{
+
+	    //pick up key
+	    if(collision.isObjectColliding(ObjectPool.player, ObjectPool.key))
+	    {
+	        getObjectManager()->removeObject(collision.getObject(ObjectPool.key));
+            mPlayer.setHasKey(true);
+            collision.setEnabled(false);
+	    }
+
+	    //open door
+	    else if(collision.isColliding(CategoryPool.player, CategoryPool.door))
+	    {
+	        if(mPlayer.hasKey())
+            {
+                nero::PhysicObject::Cast(getObjectManager()->findObject(ObjectPool.door))->setSensor(true);
+                mPlayer.setHasKey(false);
+            }
+            collision.setEnabled(false);
+	    }
+
+	    //pick up treasure
+	    else if(collision.isObjectColliding(ObjectPool.player, ObjectPool.treasure))
+	    {
+            getObjectManager()->removeObject(collision.getObject(ObjectPool.treasure));
+            mPlayer.setHasTreasure(true);
+            collision.setEnabled(false);
+	    }
+	}
 }

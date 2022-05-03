@@ -104,8 +104,8 @@
          "default_rotation": 0.0,
          "default_zoom": 0.0,
          "position": {
-            "x": 1368.46728515625,
-            "y": 326.521728515625
+            "x": 1628.75463867188,
+            "y": 326.460266113281
          },
          "rotation": 0.0,
          "zoom": -69.0
@@ -348,7 +348,7 @@
                         }
                      ]
                   },
-                  "name": "treasure_doo",
+                  "name": "treasure_door",
                   "object_id": 6,
                   "second_type": "mesh_object"
                },

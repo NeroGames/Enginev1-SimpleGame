@@ -11262,3 +11262,253 @@
 2022-05-02 20:41:19,061 INFO [default] 
  ## -- Engine closed at 2/5/2022 20:41:19-- ###
 
+2022-05-02 20:51:14,869 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-02 20:51:14,869 INFO [default] nero development engine starting
+2022-05-02 20:51:14,869 INFO [default] loading engine configuration
+2022-05-02 20:51:14,869 INFO [default] setting up sfml render window
+2022-05-02 20:51:14,880 INFO [default] building startup screen
+2022-05-02 20:51:14,885 INFO [default] starting background task
+2022-05-02 20:51:15,024 INFO [default] building resource manager
+2022-05-02 20:51:15,024 INFO [default] loading font resources
+2022-05-02 20:51:15,024 INFO [default] Resource path : resource/font
+2022-05-02 20:51:15,024 INFO [default] loaded : Sansation
+2022-05-02 20:51:15,024 INFO [default] loading sound resources
+2022-05-02 20:51:15,024 INFO [default] resource path : resource/sound
+2022-05-02 20:51:15,024 INFO [default] loading music resources
+2022-05-02 20:51:15,024 INFO [default] Resource path : resource/music
+2022-05-02 20:51:15,024 INFO [default] loading texture resources
+2022-05-02 20:51:15,024 INFO [default] Resource path : resource/texture
+2022-05-02 20:51:15,024 INFO [default] loading animation resources
+2022-05-02 20:51:15,024 INFO [default] Resource path : resource/animation
+2022-05-02 20:51:15,029 INFO [default] building engine-ui
+2022-05-02 20:51:15,184 INFO [default] providing engine setting to engine-ui
+2022-05-02 20:51:15,184 INFO [default] providing resource manager to engine-ui
+2022-05-02 20:51:15,184 INFO [default] building engine interface
+2022-05-02 20:51:19,944 INFO [default] building camera
+2022-05-02 20:51:19,944 INFO [default] building scene manager
+2022-05-02 20:51:19,944 INFO [default] adjusting background task time
+2022-05-02 20:51:19,944 INFO [default] adding the default scene
+2022-05-02 20:51:19,944 INFO [default] registering all scenes
+2022-05-02 20:51:19,944 INFO [default] adding scene : SimpleGame
+2022-05-02 20:51:20,205 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-02 20:51:20,205 INFO [default] loading scene
+2022-05-02 20:51:20,207 INFO [default] loading scene
+2022-05-02 20:51:20,208 INFO [default] loading scene
+2022-05-02 20:51:20,208 INFO [default] scene registration complete
+2022-05-02 20:51:20,208 INFO [default] setting up the engine-ui
+2022-05-02 20:51:20,208 INFO [default] update engine-ui log
+2022-05-02 20:51:20,209 INFO [default] Nero Game Engine --- Log file 2/5/2022 20:51:20
+
+2022-05-02 20:51:20,209 INFO [default] Restoring last Scene
+2022-05-02 20:51:20,209 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-02 20:51:20,223 INFO [default] Background task completed
+2022-05-02 20:51:20,223 INFO [default] Nero Development Engine started successfully
+2022-05-02 20:51:27,216 INFO [default] saving Scene [SimpleGame] to Nero/SimpleGame/SimpleGame.json
+2022-05-02 20:51:27,284 INFO [default] saving Scene [SimpleGame] to Nero/SimpleGame/SimpleGame.json
+2022-05-02 20:56:48,381 INFO [default] closing the Engine
+2022-05-02 20:56:48,382 INFO [default] stopping music
+2022-05-02 20:56:48,382 INFO [default] saving Engine Settings
+2022-05-02 20:56:48,383 INFO [default] saving all Scenes
+2022-05-02 20:56:48,438 INFO [default] 
+ ## -- Engine closed at 2/5/2022 20:56:48-- ###
+
+2022-05-02 20:57:56,551 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-02 20:57:56,551 INFO [default] nero development engine starting
+2022-05-02 20:57:56,551 INFO [default] loading engine configuration
+2022-05-02 20:57:56,551 INFO [default] setting up sfml render window
+2022-05-02 20:57:56,561 INFO [default] building startup screen
+2022-05-02 20:57:56,568 INFO [default] starting background task
+2022-05-02 20:57:56,691 INFO [default] building resource manager
+2022-05-02 20:57:56,696 INFO [default] loading font resources
+2022-05-02 20:57:56,696 INFO [default] Resource path : resource/font
+2022-05-02 20:57:56,696 INFO [default] loaded : Sansation
+2022-05-02 20:57:56,696 INFO [default] loading sound resources
+2022-05-02 20:57:56,696 INFO [default] resource path : resource/sound
+2022-05-02 20:57:56,696 INFO [default] loading music resources
+2022-05-02 20:57:56,696 INFO [default] Resource path : resource/music
+2022-05-02 20:57:56,696 INFO [default] loading texture resources
+2022-05-02 20:57:56,696 INFO [default] Resource path : resource/texture
+2022-05-02 20:57:56,696 INFO [default] loading animation resources
+2022-05-02 20:57:56,696 INFO [default] Resource path : resource/animation
+2022-05-02 20:57:56,696 INFO [default] building engine-ui
+2022-05-02 20:57:56,856 INFO [default] providing engine setting to engine-ui
+2022-05-02 20:57:56,856 INFO [default] providing resource manager to engine-ui
+2022-05-02 20:57:56,856 INFO [default] building engine interface
+2022-05-02 20:58:01,622 INFO [default] building camera
+2022-05-02 20:58:01,622 INFO [default] building scene manager
+2022-05-02 20:58:01,622 INFO [default] adjusting background task time
+2022-05-02 20:58:01,622 INFO [default] adding the default scene
+2022-05-02 20:58:01,622 INFO [default] registering all scenes
+2022-05-02 20:58:01,622 INFO [default] adding scene : SimpleGame
+2022-05-02 20:58:01,878 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-02 20:58:01,878 INFO [default] loading scene
+2022-05-02 20:58:01,879 INFO [default] loading scene
+2022-05-02 20:58:01,880 INFO [default] loading scene
+2022-05-02 20:58:01,880 INFO [default] scene registration complete
+2022-05-02 20:58:01,880 INFO [default] setting up the engine-ui
+2022-05-02 20:58:01,880 INFO [default] update engine-ui log
+2022-05-02 20:58:01,881 INFO [default] Nero Game Engine --- Log file 2/5/2022 20:58:1
+
+2022-05-02 20:58:01,881 INFO [default] Restoring last Scene
+2022-05-02 20:58:01,881 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-02 20:58:01,895 INFO [default] Background task completed
+2022-05-02 20:58:01,895 INFO [default] Nero Development Engine started successfully
+2022-05-02 20:58:03,923 INFO [default] playing [SimpleGame]
+2022-05-02 20:58:03,925 INFO [default] checking Scene Objects ...
+2022-05-02 20:58:03,925 INFO [default] checking World Objects ...
+2022-05-02 20:58:03,925 INFO [default] checking Screen Objects ...
+2022-05-02 20:58:03,925 INFO [default] SimpleGame Scene v0.1
+2022-05-02 20:58:03,926 INFO [default] Setting up Collision rules ...
+2022-05-02 20:58:03,926 INFO [default] Setting up the player ...
+2022-05-02 20:58:03,927 INFO [default] current mode : Scene - Play
+2022-05-02 20:58:11,926 INFO [default] closing the Engine
+2022-05-02 20:58:11,926 INFO [default] stopping music
+2022-05-02 20:58:11,927 INFO [default] saving Engine Settings
+2022-05-02 20:58:11,928 INFO [default] saving all Scenes
+2022-05-02 20:58:11,984 INFO [default] 
+ ## -- Engine closed at 2/5/2022 20:58:11-- ###
+
+2022-05-02 20:58:30,242 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-02 20:58:30,242 INFO [default] nero development engine starting
+2022-05-02 20:58:30,242 INFO [default] loading engine configuration
+2022-05-02 20:58:30,242 INFO [default] setting up sfml render window
+2022-05-02 20:58:30,253 INFO [default] building startup screen
+2022-05-02 20:58:30,258 INFO [default] starting background task
+2022-05-02 20:58:30,372 INFO [default] building resource manager
+2022-05-02 20:58:30,382 INFO [default] loading font resources
+2022-05-02 20:58:30,382 INFO [default] Resource path : resource/font
+2022-05-02 20:58:30,386 INFO [default] loaded : Sansation
+2022-05-02 20:58:30,386 INFO [default] loading sound resources
+2022-05-02 20:58:30,386 INFO [default] resource path : resource/sound
+2022-05-02 20:58:30,386 INFO [default] loading music resources
+2022-05-02 20:58:30,386 INFO [default] Resource path : resource/music
+2022-05-02 20:58:30,386 INFO [default] loading texture resources
+2022-05-02 20:58:30,386 INFO [default] Resource path : resource/texture
+2022-05-02 20:58:30,386 INFO [default] loading animation resources
+2022-05-02 20:58:30,386 INFO [default] Resource path : resource/animation
+2022-05-02 20:58:30,386 INFO [default] building engine-ui
+2022-05-02 20:58:30,537 INFO [default] providing engine setting to engine-ui
+2022-05-02 20:58:30,537 INFO [default] providing resource manager to engine-ui
+2022-05-02 20:58:30,537 INFO [default] building engine interface
+2022-05-02 20:58:35,086 INFO [default] building camera
+2022-05-02 20:58:35,086 INFO [default] building scene manager
+2022-05-02 20:58:35,086 INFO [default] adjusting background task time
+2022-05-02 20:58:35,086 INFO [default] adding the default scene
+2022-05-02 20:58:35,086 INFO [default] registering all scenes
+2022-05-02 20:58:35,091 INFO [default] adding scene : SimpleGame
+2022-05-02 20:58:35,340 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-02 20:58:35,340 INFO [default] loading scene
+2022-05-02 20:58:35,341 INFO [default] loading scene
+2022-05-02 20:58:35,342 INFO [default] loading scene
+2022-05-02 20:58:35,342 INFO [default] scene registration complete
+2022-05-02 20:58:35,342 INFO [default] setting up the engine-ui
+2022-05-02 20:58:35,343 INFO [default] update engine-ui log
+2022-05-02 20:58:35,343 INFO [default] Nero Game Engine --- Log file 2/5/2022 20:58:35
+
+2022-05-02 20:58:35,343 INFO [default] Restoring last Scene
+2022-05-02 20:58:35,343 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-02 20:58:35,357 INFO [default] Background task completed
+2022-05-02 20:58:35,357 INFO [default] Nero Development Engine started successfully
+2022-05-02 20:58:38,094 INFO [default] playing [SimpleGame]
+2022-05-02 20:58:38,095 INFO [default] checking Scene Objects ...
+2022-05-02 20:58:38,095 INFO [default] checking World Objects ...
+2022-05-02 20:58:38,096 INFO [default] checking Screen Objects ...
+2022-05-02 20:58:38,096 INFO [default] SimpleGame Scene v0.1
+2022-05-02 20:58:38,096 INFO [default] Setting up Collision rules ...
+2022-05-02 20:58:38,097 INFO [default] Setting up the player ...
+2022-05-02 20:58:38,097 INFO [default] current mode : Scene - Play
+2022-05-02 20:58:41,924 INFO [default] closing the Engine
+2022-05-02 20:58:41,924 INFO [default] stopping music
+2022-05-02 20:58:41,925 INFO [default] saving Engine Settings
+2022-05-02 20:58:41,926 INFO [default] saving all Scenes
+2022-05-02 20:58:41,977 INFO [default] 
+ ## -- Engine closed at 2/5/2022 20:58:41-- ###
+
+2022-05-02 20:59:14,356 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-02 20:59:14,356 INFO [default] nero development engine starting
+2022-05-02 20:59:14,356 INFO [default] loading engine configuration
+2022-05-02 20:59:14,356 INFO [default] setting up sfml render window
+2022-05-02 20:59:14,368 INFO [default] building startup screen
+2022-05-02 20:59:14,373 INFO [default] starting background task
+2022-05-02 20:59:14,506 INFO [default] building resource manager
+2022-05-02 20:59:14,506 INFO [default] loading font resources
+2022-05-02 20:59:14,506 INFO [default] Resource path : resource/font
+2022-05-02 20:59:14,506 INFO [default] loaded : Sansation
+2022-05-02 20:59:14,506 INFO [default] loading sound resources
+2022-05-02 20:59:14,511 INFO [default] resource path : resource/sound
+2022-05-02 20:59:14,511 INFO [default] loading music resources
+2022-05-02 20:59:14,511 INFO [default] Resource path : resource/music
+2022-05-02 20:59:14,511 INFO [default] loading texture resources
+2022-05-02 20:59:14,511 INFO [default] Resource path : resource/texture
+2022-05-02 20:59:14,511 INFO [default] loading animation resources
+2022-05-02 20:59:14,511 INFO [default] Resource path : resource/animation
+2022-05-02 20:59:14,511 INFO [default] building engine-ui
+2022-05-02 20:59:14,661 INFO [default] providing engine setting to engine-ui
+2022-05-02 20:59:14,661 INFO [default] providing resource manager to engine-ui
+2022-05-02 20:59:14,661 INFO [default] building engine interface
+2022-05-02 20:59:19,341 INFO [default] building camera
+2022-05-02 20:59:19,341 INFO [default] building scene manager
+2022-05-02 20:59:19,341 INFO [default] adjusting background task time
+2022-05-02 20:59:19,341 INFO [default] adding the default scene
+2022-05-02 20:59:19,341 INFO [default] registering all scenes
+2022-05-02 20:59:19,341 INFO [default] adding scene : SimpleGame
+2022-05-02 20:59:19,598 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-02 20:59:19,598 INFO [default] loading scene
+2022-05-02 20:59:19,599 INFO [default] loading scene
+2022-05-02 20:59:19,600 INFO [default] loading scene
+2022-05-02 20:59:19,601 INFO [default] scene registration complete
+2022-05-02 20:59:19,601 INFO [default] setting up the engine-ui
+2022-05-02 20:59:19,601 INFO [default] update engine-ui log
+2022-05-02 20:59:19,601 INFO [default] Nero Game Engine --- Log file 2/5/2022 20:59:19
+
+2022-05-02 20:59:19,601 INFO [default] Restoring last Scene
+2022-05-02 20:59:19,602 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-02 20:59:19,618 INFO [default] Background task completed
+2022-05-02 20:59:19,618 INFO [default] Nero Development Engine started successfully
+2022-05-02 20:59:21,293 INFO [default] playing [SimpleGame]
+2022-05-02 20:59:21,294 INFO [default] checking Scene Objects ...
+2022-05-02 20:59:21,295 INFO [default] checking World Objects ...
+2022-05-02 20:59:21,295 INFO [default] checking Screen Objects ...
+2022-05-02 20:59:21,295 INFO [default] SimpleGame Scene v0.1
+2022-05-02 20:59:21,296 INFO [default] Setting up Collision rules ...
+2022-05-02 20:59:21,296 INFO [default] Setting up the player ...
+2022-05-02 20:59:21,297 INFO [default] current mode : Scene - Play
+2022-05-02 20:59:29,839 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:29,841 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:30,212 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:30,214 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:31,745 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:31,747 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:31,829 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:31,831 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:33,945 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:33,948 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:34,076 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:34,078 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:34,224 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:34,227 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:34,428 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:34,430 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:35,726 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:35,729 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:35,892 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:35,895 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:36,009 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:36,011 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:36,393 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:36,395 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:37,781 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:37,783 INFO [default] Cross isPressed = 1
+2022-05-02 20:59:37,928 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:37,931 INFO [default] Cross isPressed = 0
+2022-05-02 20:59:52,395 INFO [default] closing the Engine
+2022-05-02 20:59:52,395 INFO [default] stopping music
+2022-05-02 20:59:52,396 INFO [default] saving Engine Settings
+2022-05-02 20:59:52,397 INFO [default] saving all Scenes
+2022-05-02 20:59:52,463 INFO [default] 
+ ## -- Engine closed at 2/5/2022 20:59:52-- ###
+

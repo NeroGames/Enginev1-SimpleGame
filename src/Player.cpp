@@ -9,12 +9,14 @@
 namespace ng
 {
 	Player::Player(): PhysicActionObject()
-        ,mMoveSpeed(100.f)
+        ,mMoveSpeed(200.f)
 	    ,mJumpForce(700.f)
 	    ,mIsMovingLeft(false)
 	    ,mIsMovingRight(false)
 	    ,mIsJumping(false)
 	    ,mPhysic(nullptr)
+	    ,mHasKey(false)
+	    ,mHasTreasure(false)
 	{
 	    registerAction<nero::MoveAction>(PlayerActionPool.move_left, nero::getMoveLeftAction(mMoveSpeed));
 	    registerAction<nero::MoveAction>(PlayerActionPool.move_right, nero::getMoveRightAction(mMoveSpeed));
@@ -43,12 +45,12 @@ namespace ng
 	    //log(nero::toString(mPhysic->getLinearVelocity().x));
 
         //Move Action
-	    if(mIsMovingLeft && std::abs(mPhysic->getLinearVelocity().x) < 90.f)
+	    if(mIsMovingLeft && std::abs(mPhysic->getLinearVelocity().x) < 180.f)
 	    {
            //log("moving left");
 	       callAction(PlayerActionPool.move_left);
 	    }
-	    else if(mIsMovingRight && std::abs(mPhysic->getLinearVelocity().x) < 90.f)
+	    else if(mIsMovingRight && std::abs(mPhysic->getLinearVelocity().x) < 180.f)
 	    {
 	        //log("moving right");
 	        callAction(PlayerActionPool.move_right);
@@ -166,6 +168,26 @@ namespace ng
 	        mPhysic->clearVelocity();
 	    }
 	}
+
+	void Player::setHasKey(const bool& flag)
+	{
+	    mHasKey = flag;
+	}
+
+    bool Player::hasKey() const
+    {
+        return mHasKey;
+    }
+
+    void Player::setHasTreasure(const bool& flag)
+    {
+        mHasTreasure = flag;
+    }
+
+    bool Player::hasTreasure() const
+    {
+        return mHasTreasure;
+    }
 }
 
 

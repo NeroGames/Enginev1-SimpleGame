@@ -27,7 +27,8 @@ namespace ng
             virtual void                onJoystickAxis(const unsigned int& joystickId, const sf::Joystick::Axis& axis, const float& position);
             //keyboard
             virtual void                handleKeyboardInput(const sf::Keyboard::Key& key, const bool& isPressed);
-
+            //collision
+            virtual void                handleCollisionContactBegin(nero::Collision collision);
 
 	    protected:
 	        void                        init();

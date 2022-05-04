@@ -16,6 +16,11 @@ Add palyer movements (E.g. rolling and jump) and control player using the keyboa
 
 Add collisions detection, pickup the key, open the door, grab the treasure.
 
+
+### Part 4 - Release Final Game
+
+Package your game and play it !
+
 ## What's Next ?
 
 Learn more on the Nero Game Engine Website : https://nero-games.com/learn/

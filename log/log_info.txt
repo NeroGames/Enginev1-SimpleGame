@@ -11512,3 +11512,754 @@
 2022-05-02 20:59:52,463 INFO [default] 
  ## -- Engine closed at 2/5/2022 20:59:52-- ###
 
+2022-05-04 11:05:51,637 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-04 11:05:51,638 INFO [default] nero development engine starting
+2022-05-04 11:05:51,638 INFO [default] loading engine configuration
+2022-05-04 11:05:51,643 INFO [default] setting up sfml render window
+2022-05-04 11:05:51,649 INFO [default] building startup screen
+2022-05-04 11:05:51,655 INFO [default] starting background task
+2022-05-04 11:05:51,784 INFO [default] building resource manager
+2022-05-04 11:05:51,791 INFO [default] loading font resources
+2022-05-04 11:05:51,791 INFO [default] Resource path : resource/font
+2022-05-04 11:05:51,810 INFO [default] loaded : Sansation
+2022-05-04 11:05:51,810 INFO [default] loading sound resources
+2022-05-04 11:05:51,810 INFO [default] resource path : resource/sound
+2022-05-04 11:05:51,810 INFO [default] loading music resources
+2022-05-04 11:05:51,810 INFO [default] Resource path : resource/music
+2022-05-04 11:05:51,811 INFO [default] loading texture resources
+2022-05-04 11:05:51,811 INFO [default] Resource path : resource/texture
+2022-05-04 11:05:51,811 INFO [default] loading animation resources
+2022-05-04 11:05:51,811 INFO [default] Resource path : resource/animation
+2022-05-04 11:05:51,812 INFO [default] building engine-ui
+2022-05-04 11:05:51,965 INFO [default] providing engine setting to engine-ui
+2022-05-04 11:05:51,965 INFO [default] providing resource manager to engine-ui
+2022-05-04 11:05:51,965 INFO [default] building engine interface
+2022-05-04 11:05:56,913 INFO [default] building camera
+2022-05-04 11:05:56,913 INFO [default] building scene manager
+2022-05-04 11:05:56,913 INFO [default] adjusting background task time
+2022-05-04 11:05:56,913 INFO [default] adding the default scene
+2022-05-04 11:05:56,913 INFO [default] registering all scenes
+2022-05-04 11:05:56,913 INFO [default] adding scene : SimpleGame
+2022-05-04 11:05:57,188 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:05:57,188 INFO [default] loading scene
+2022-05-04 11:05:57,194 INFO [default] loading scene
+2022-05-04 11:05:57,195 INFO [default] loading scene
+2022-05-04 11:05:57,196 INFO [default] scene registration complete
+2022-05-04 11:05:57,196 INFO [default] setting up the engine-ui
+2022-05-04 11:05:57,196 INFO [default] update engine-ui log
+2022-05-04 11:05:57,196 INFO [default] Nero Game Engine --- Log file 4/5/2022 11:5:57
+
+2022-05-04 11:05:57,196 INFO [default] Restoring last Scene
+2022-05-04 11:05:57,197 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-04 11:05:57,210 INFO [default] Background task completed
+2022-05-04 11:05:57,210 INFO [default] Nero Development Engine started successfully
+2022-05-04 11:06:00,623 INFO [default] launching Scene Renderer with Scene [SimpleGame]
+2022-05-04 11:06:00,635 INFO [default] Setting up Resolution ...
+2022-05-04 11:06:00,707 INFO [default] checking Scene Objects ...
+2022-05-04 11:06:00,707 INFO [default] checking World Objects ...
+2022-05-04 11:06:00,707 INFO [default] checking Screen Objects ...
+2022-05-04 11:06:00,707 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:06:00,707 INFO [default] Setting up Collision rules ...
+2022-05-04 11:06:00,707 INFO [default] Setting up the player ...
+2022-05-04 11:06:15,034 INFO [default] closing Scene Renderer for Scene [SimpleGame]
+2022-05-04 11:06:16,541 INFO [default] launching Scene Renderer with Scene [SimpleGame]
+2022-05-04 11:06:16,542 INFO [default] Setting up Resolution ...
+2022-05-04 11:06:16,611 INFO [default] checking Scene Objects ...
+2022-05-04 11:06:16,611 INFO [default] checking World Objects ...
+2022-05-04 11:06:16,611 INFO [default] checking Screen Objects ...
+2022-05-04 11:06:16,611 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:06:16,611 INFO [default] Setting up Collision rules ...
+2022-05-04 11:06:16,611 INFO [default] Setting up the player ...
+2022-05-04 11:06:41,673 INFO [default] closing Scene Renderer for Scene [SimpleGame]
+2022-05-04 11:06:43,772 INFO [default] closing the Engine
+2022-05-04 11:06:43,773 INFO [default] stopping music
+2022-05-04 11:06:43,773 INFO [default] saving Engine Settings
+2022-05-04 11:06:43,774 INFO [default] saving all Scenes
+2022-05-04 11:06:43,832 INFO [default] 
+ ## -- Engine closed at 4/5/2022 11:6:43-- ###
+
+2022-05-04 11:07:32,382 INFO [default] Resource path : resource/font
+2022-05-04 11:07:32,384 INFO [default] loaded : Sansation
+2022-05-04 11:07:32,384 INFO [default] resource path : resource/sound
+2022-05-04 11:07:32,384 INFO [default] Resource path : resource/music
+2022-05-04 11:07:32,384 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:07:32,406 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:07:32,570 INFO [default] Resource path : resource/texture
+2022-05-04 11:07:32,570 INFO [default] Resource path : resource/animation
+2022-05-04 11:07:41,811 INFO [default] loading scene
+2022-05-04 11:07:41,812 INFO [default] loading scene
+2022-05-04 11:07:41,812 INFO [default] checking Scene Objects ...
+2022-05-04 11:07:41,812 INFO [default] checking World Objects ...
+2022-05-04 11:07:41,812 INFO [default] checking Screen Objects ...
+2022-05-04 11:07:41,812 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:07:41,812 INFO [default] Setting up Collision rules ...
+2022-05-04 11:07:41,812 INFO [default] Setting up the player ...
+2022-05-04 11:10:32,579 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-04 11:10:32,579 INFO [default] nero development engine starting
+2022-05-04 11:10:32,579 INFO [default] loading engine configuration
+2022-05-04 11:10:32,580 INFO [default] setting up sfml render window
+2022-05-04 11:10:32,588 INFO [default] building startup screen
+2022-05-04 11:10:32,592 INFO [default] starting background task
+2022-05-04 11:10:32,692 INFO [default] building resource manager
+2022-05-04 11:10:32,694 INFO [default] loading font resources
+2022-05-04 11:10:32,694 INFO [default] Resource path : resource/font
+2022-05-04 11:10:32,695 INFO [default] loaded : Sansation
+2022-05-04 11:10:32,695 INFO [default] loading sound resources
+2022-05-04 11:10:32,695 INFO [default] resource path : resource/sound
+2022-05-04 11:10:32,696 INFO [default] loading music resources
+2022-05-04 11:10:32,696 INFO [default] Resource path : resource/music
+2022-05-04 11:10:32,696 INFO [default] loading texture resources
+2022-05-04 11:10:32,696 INFO [default] Resource path : resource/texture
+2022-05-04 11:10:32,697 INFO [default] loading animation resources
+2022-05-04 11:10:32,697 INFO [default] Resource path : resource/animation
+2022-05-04 11:10:32,697 INFO [default] building engine-ui
+2022-05-04 11:10:32,856 INFO [default] providing engine setting to engine-ui
+2022-05-04 11:10:32,856 INFO [default] providing resource manager to engine-ui
+2022-05-04 11:10:32,856 INFO [default] building engine interface
+2022-05-04 11:10:37,563 INFO [default] building camera
+2022-05-04 11:10:37,563 INFO [default] building scene manager
+2022-05-04 11:10:37,563 INFO [default] adjusting background task time
+2022-05-04 11:10:37,563 INFO [default] adding the default scene
+2022-05-04 11:10:37,563 INFO [default] registering all scenes
+2022-05-04 11:10:37,563 INFO [default] adding scene : SimpleGame
+2022-05-04 11:10:37,776 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:10:37,776 INFO [default] loading scene
+2022-05-04 11:10:37,777 INFO [default] loading scene
+2022-05-04 11:10:37,779 INFO [default] loading scene
+2022-05-04 11:10:37,779 INFO [default] scene registration complete
+2022-05-04 11:10:37,779 INFO [default] setting up the engine-ui
+2022-05-04 11:10:37,779 INFO [default] update engine-ui log
+2022-05-04 11:10:37,780 INFO [default] Nero Game Engine --- Log file 4/5/2022 11:10:37
+
+2022-05-04 11:10:37,780 INFO [default] Restoring last Scene
+2022-05-04 11:10:37,780 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-04 11:10:37,793 INFO [default] Background task completed
+2022-05-04 11:10:37,794 INFO [default] Nero Development Engine started successfully
+2022-05-04 11:10:39,525 INFO [default] loading camera state
+2022-05-04 11:10:45,525 INFO [default] saving Scene [SimpleGame] to Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:10:46,946 INFO [default] closing the Engine
+2022-05-04 11:10:46,947 INFO [default] stopping music
+2022-05-04 11:10:46,947 INFO [default] saving Engine Settings
+2022-05-04 11:10:46,948 INFO [default] saving all Scenes
+2022-05-04 11:10:47,011 INFO [default] 
+ ## -- Engine closed at 4/5/2022 11:10:47-- ###
+
+2022-05-04 11:10:51,775 INFO [default] Resource path : resource/font
+2022-05-04 11:10:51,776 INFO [default] loaded : Sansation
+2022-05-04 11:10:51,776 INFO [default] resource path : resource/sound
+2022-05-04 11:10:51,777 INFO [default] Resource path : resource/music
+2022-05-04 11:10:51,782 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:10:51,782 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:10:51,792 INFO [default] Resource path : resource/texture
+2022-05-04 11:10:51,793 INFO [default] Resource path : resource/animation
+2022-05-04 11:11:01,002 INFO [default] loading scene
+2022-05-04 11:11:01,004 INFO [default] loading scene
+2022-05-04 11:11:01,004 INFO [default] checking Scene Objects ...
+2022-05-04 11:11:01,004 INFO [default] checking World Objects ...
+2022-05-04 11:11:01,004 INFO [default] checking Screen Objects ...
+2022-05-04 11:11:01,004 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:11:01,004 INFO [default] Setting up Collision rules ...
+2022-05-04 11:11:01,004 INFO [default] Setting up the player ...
+2022-05-04 11:16:51,366 INFO [default] Resource path : resource/font
+2022-05-04 11:16:51,367 INFO [default] loaded : Sansation
+2022-05-04 11:16:51,367 INFO [default] resource path : resource/sound
+2022-05-04 11:16:51,368 INFO [default] Resource path : resource/music
+2022-05-04 11:16:51,368 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:16:51,368 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:16:51,371 INFO [default] Resource path : resource/texture
+2022-05-04 11:16:51,372 INFO [default] Resource path : resource/animation
+2022-05-04 11:17:00,587 INFO [default] loading scene
+2022-05-04 11:17:00,588 INFO [default] loading scene
+2022-05-04 11:17:00,588 INFO [default] checking Scene Objects ...
+2022-05-04 11:17:00,588 INFO [default] checking World Objects ...
+2022-05-04 11:17:00,588 INFO [default] checking Screen Objects ...
+2022-05-04 11:17:00,588 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:17:00,588 INFO [default] Setting up Collision rules ...
+2022-05-04 11:17:00,588 INFO [default] Setting up the player ...
+2022-05-04 11:17:07,651 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-04 11:17:07,652 INFO [default] nero development engine starting
+2022-05-04 11:17:07,652 INFO [default] loading engine configuration
+2022-05-04 11:17:07,652 INFO [default] setting up sfml render window
+2022-05-04 11:17:07,659 INFO [default] building startup screen
+2022-05-04 11:17:07,664 INFO [default] starting background task
+2022-05-04 11:17:07,775 INFO [default] building resource manager
+2022-05-04 11:17:07,781 INFO [default] loading font resources
+2022-05-04 11:17:07,781 INFO [default] Resource path : resource/font
+2022-05-04 11:17:07,782 INFO [default] loaded : Sansation
+2022-05-04 11:17:07,783 INFO [default] loading sound resources
+2022-05-04 11:17:07,783 INFO [default] resource path : resource/sound
+2022-05-04 11:17:07,783 INFO [default] loading music resources
+2022-05-04 11:17:07,783 INFO [default] Resource path : resource/music
+2022-05-04 11:17:07,783 INFO [default] loading texture resources
+2022-05-04 11:17:07,783 INFO [default] Resource path : resource/texture
+2022-05-04 11:17:07,784 INFO [default] loading animation resources
+2022-05-04 11:17:07,784 INFO [default] Resource path : resource/animation
+2022-05-04 11:17:07,784 INFO [default] building engine-ui
+2022-05-04 11:17:07,962 INFO [default] providing engine setting to engine-ui
+2022-05-04 11:17:07,962 INFO [default] providing resource manager to engine-ui
+2022-05-04 11:17:07,962 INFO [default] building engine interface
+2022-05-04 11:17:12,602 INFO [default] building camera
+2022-05-04 11:17:12,602 INFO [default] building scene manager
+2022-05-04 11:17:12,602 INFO [default] adjusting background task time
+2022-05-04 11:17:12,602 INFO [default] adding the default scene
+2022-05-04 11:17:12,602 INFO [default] registering all scenes
+2022-05-04 11:17:12,602 INFO [default] adding scene : SimpleGame
+2022-05-04 11:17:12,796 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:17:12,796 INFO [default] loading scene
+2022-05-04 11:17:12,798 INFO [default] loading scene
+2022-05-04 11:17:12,799 INFO [default] loading scene
+2022-05-04 11:17:12,799 INFO [default] scene registration complete
+2022-05-04 11:17:12,799 INFO [default] setting up the engine-ui
+2022-05-04 11:17:12,800 INFO [default] update engine-ui log
+2022-05-04 11:17:12,800 INFO [default] Nero Game Engine --- Log file 4/5/2022 11:17:12
+
+2022-05-04 11:17:12,800 INFO [default] Restoring last Scene
+2022-05-04 11:17:12,800 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-04 11:17:12,814 INFO [default] Background task completed
+2022-05-04 11:17:12,814 INFO [default] Nero Development Engine started successfully
+2022-05-04 11:17:18,547 INFO [default] saving Scene [SimpleGame] to Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:17:20,042 INFO [default] closing the Engine
+2022-05-04 11:17:20,042 INFO [default] stopping music
+2022-05-04 11:17:20,042 INFO [default] saving Engine Settings
+2022-05-04 11:17:20,044 INFO [default] saving all Scenes
+2022-05-04 11:17:20,112 INFO [default] 
+ ## -- Engine closed at 4/5/2022 11:17:20-- ###
+
+2022-05-04 11:17:23,910 INFO [default] Resource path : resource/font
+2022-05-04 11:17:23,912 INFO [default] loaded : Sansation
+2022-05-04 11:17:23,912 INFO [default] resource path : resource/sound
+2022-05-04 11:17:23,912 INFO [default] Resource path : resource/music
+2022-05-04 11:17:23,913 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:17:23,913 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:17:23,916 INFO [default] Resource path : resource/texture
+2022-05-04 11:17:23,916 INFO [default] Resource path : resource/animation
+2022-05-04 11:17:33,138 INFO [default] loading scene
+2022-05-04 11:17:33,140 INFO [default] loading scene
+2022-05-04 11:17:33,140 INFO [default] checking Scene Objects ...
+2022-05-04 11:17:33,140 INFO [default] checking World Objects ...
+2022-05-04 11:17:33,140 INFO [default] checking Screen Objects ...
+2022-05-04 11:17:33,140 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:17:33,140 INFO [default] Setting up Collision rules ...
+2022-05-04 11:17:33,140 INFO [default] Setting up the player ...
+2022-05-04 11:42:08,679 INFO [default] Resource path : resource/font
+2022-05-04 11:42:08,681 INFO [default] loaded : Sansation
+2022-05-04 11:42:08,681 INFO [default] resource path : resource/sound
+2022-05-04 11:42:08,681 INFO [default] Resource path : resource/music
+2022-05-04 11:42:08,682 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:42:08,682 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:42:08,685 INFO [default] Resource path : resource/texture
+2022-05-04 11:42:08,685 INFO [default] Resource path : resource/animation
+2022-05-04 11:42:17,981 INFO [default] loading scene
+2022-05-04 11:42:17,983 INFO [default] loading scene
+2022-05-04 11:42:17,983 INFO [default] checking Scene Objects ...
+2022-05-04 11:42:17,983 INFO [default] checking World Objects ...
+2022-05-04 11:42:17,983 INFO [default] checking Screen Objects ...
+2022-05-04 11:42:17,983 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:42:17,983 INFO [default] Setting up Collision rules ...
+2022-05-04 11:42:17,983 INFO [default] Setting up the player ...
+2022-05-04 11:42:40,555 INFO [default] Resource path : resource/font
+2022-05-04 11:42:40,557 INFO [default] loaded : Sansation
+2022-05-04 11:42:40,557 INFO [default] resource path : resource/sound
+2022-05-04 11:42:40,557 INFO [default] Resource path : resource/music
+2022-05-04 11:42:40,557 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:42:40,557 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:42:40,561 INFO [default] Resource path : resource/texture
+2022-05-04 11:42:40,561 INFO [default] Resource path : resource/animation
+2022-05-04 11:42:49,816 INFO [default] loading scene
+2022-05-04 11:42:49,817 INFO [default] loading scene
+2022-05-04 11:42:49,818 INFO [default] checking Scene Objects ...
+2022-05-04 11:42:49,818 INFO [default] checking World Objects ...
+2022-05-04 11:42:49,818 INFO [default] checking Screen Objects ...
+2022-05-04 11:42:49,818 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:42:49,818 INFO [default] Setting up Collision rules ...
+2022-05-04 11:42:49,818 INFO [default] Setting up the player ...
+2022-05-04 11:44:23,264 INFO [default] Resource path : resource/font
+2022-05-04 11:44:23,265 INFO [default] loaded : Sansation
+2022-05-04 11:44:23,265 INFO [default] resource path : resource/sound
+2022-05-04 11:44:23,266 INFO [default] Resource path : resource/music
+2022-05-04 11:44:23,266 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:44:23,266 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:44:23,269 INFO [default] Resource path : resource/texture
+2022-05-04 11:44:23,269 INFO [default] Resource path : resource/animation
+2022-05-04 11:44:32,489 INFO [default] loading scene
+2022-05-04 11:44:32,490 INFO [default] loading scene
+2022-05-04 11:44:32,490 INFO [default] checking Scene Objects ...
+2022-05-04 11:44:32,490 INFO [default] checking World Objects ...
+2022-05-04 11:44:32,490 INFO [default] checking Screen Objects ...
+2022-05-04 11:44:32,490 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:44:32,490 INFO [default] Setting up Collision rules ...
+2022-05-04 11:44:32,490 INFO [default] Setting up the player ...
+2022-05-04 11:45:03,460 INFO [default] Resource path : resource/font
+2022-05-04 11:45:03,461 INFO [default] loaded : Sansation
+2022-05-04 11:45:03,461 INFO [default] resource path : resource/sound
+2022-05-04 11:45:03,462 INFO [default] Resource path : resource/music
+2022-05-04 11:45:03,462 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:45:03,462 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:45:03,465 INFO [default] Resource path : resource/texture
+2022-05-04 11:45:03,465 INFO [default] Resource path : resource/animation
+2022-05-04 11:45:05,460 INFO [default] loading scene
+2022-05-04 11:45:05,462 INFO [default] loading scene
+2022-05-04 11:45:05,462 INFO [default] checking Scene Objects ...
+2022-05-04 11:45:05,462 INFO [default] checking World Objects ...
+2022-05-04 11:45:05,462 INFO [default] checking Screen Objects ...
+2022-05-04 11:45:05,462 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:45:05,462 INFO [default] Setting up Collision rules ...
+2022-05-04 11:45:05,462 INFO [default] Setting up the player ...
+2022-05-04 11:45:47,324 INFO [default] Resource path : resource/font
+2022-05-04 11:45:47,325 INFO [default] loaded : Sansation
+2022-05-04 11:45:47,325 INFO [default] resource path : resource/sound
+2022-05-04 11:45:47,326 INFO [default] Resource path : resource/music
+2022-05-04 11:45:47,326 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:45:47,326 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:45:47,328 INFO [default] Resource path : resource/texture
+2022-05-04 11:45:47,328 INFO [default] Resource path : resource/animation
+2022-05-04 11:45:47,605 INFO [default] loading scene
+2022-05-04 11:45:47,607 INFO [default] loading scene
+2022-05-04 11:45:47,607 INFO [default] checking Scene Objects ...
+2022-05-04 11:45:47,607 INFO [default] checking World Objects ...
+2022-05-04 11:45:47,607 INFO [default] checking Screen Objects ...
+2022-05-04 11:45:47,607 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:45:47,607 INFO [default] Setting up Collision rules ...
+2022-05-04 11:45:47,607 INFO [default] Setting up the player ...
+2022-05-04 11:46:33,639 INFO [default] Resource path : resource/font
+2022-05-04 11:46:33,640 INFO [default] loaded : Sansation
+2022-05-04 11:46:33,640 INFO [default] resource path : resource/sound
+2022-05-04 11:46:33,641 INFO [default] Resource path : resource/music
+2022-05-04 11:46:33,641 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:46:33,641 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:46:33,647 INFO [default] Resource path : resource/texture
+2022-05-04 11:46:33,647 INFO [default] Resource path : resource/animation
+2022-05-04 11:46:34,024 INFO [default] loading scene
+2022-05-04 11:46:34,025 INFO [default] loading scene
+2022-05-04 11:46:34,025 INFO [default] checking Scene Objects ...
+2022-05-04 11:46:34,025 INFO [default] checking World Objects ...
+2022-05-04 11:46:34,025 INFO [default] checking Screen Objects ...
+2022-05-04 11:46:34,025 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:46:34,026 INFO [default] Setting up Collision rules ...
+2022-05-04 11:46:34,026 INFO [default] Setting up the player ...
+2022-05-04 11:48:34,349 INFO [default] Resource path : resource/font
+2022-05-04 11:48:34,349 INFO [default] loaded : Sansation
+2022-05-04 11:48:34,350 INFO [default] resource path : resource/sound
+2022-05-04 11:48:34,350 INFO [default] Resource path : resource/music
+2022-05-04 11:48:34,350 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:48:34,350 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:48:34,352 INFO [default] Resource path : resource/texture
+2022-05-04 11:48:34,353 INFO [default] Resource path : resource/animation
+2022-05-04 11:48:34,625 INFO [default] loading scene
+2022-05-04 11:48:34,626 INFO [default] loading scene
+2022-05-04 11:48:34,627 INFO [default] checking Scene Objects ...
+2022-05-04 11:48:34,627 INFO [default] checking World Objects ...
+2022-05-04 11:48:34,627 INFO [default] checking Screen Objects ...
+2022-05-04 11:48:34,627 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:48:34,627 INFO [default] Setting up Collision rules ...
+2022-05-04 11:48:34,627 INFO [default] Setting up the player ...
+2022-05-04 11:49:16,336 INFO [default] Resource path : resource/font
+2022-05-04 11:49:16,336 INFO [default] loaded : Sansation
+2022-05-04 11:49:16,337 INFO [default] resource path : resource/sound
+2022-05-04 11:49:16,337 INFO [default] Resource path : resource/music
+2022-05-04 11:49:16,337 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:49:16,337 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:49:16,339 INFO [default] Resource path : resource/texture
+2022-05-04 11:49:16,340 INFO [default] Resource path : resource/animation
+2022-05-04 11:49:16,621 INFO [default] loading scene
+2022-05-04 11:49:16,623 INFO [default] loading scene
+2022-05-04 11:49:16,623 INFO [default] checking Scene Objects ...
+2022-05-04 11:49:16,623 INFO [default] checking World Objects ...
+2022-05-04 11:49:16,623 INFO [default] checking Screen Objects ...
+2022-05-04 11:49:16,623 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:49:16,623 INFO [default] Setting up Collision rules ...
+2022-05-04 11:49:16,623 INFO [default] Setting up the player ...
+2022-05-04 11:49:42,523 INFO [default] Resource path : resource/font
+2022-05-04 11:49:42,524 INFO [default] loaded : Sansation
+2022-05-04 11:49:42,524 INFO [default] resource path : resource/sound
+2022-05-04 11:49:42,524 INFO [default] Resource path : resource/music
+2022-05-04 11:49:42,524 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:49:42,524 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:49:42,526 INFO [default] Resource path : resource/texture
+2022-05-04 11:49:42,527 INFO [default] Resource path : resource/animation
+2022-05-04 11:49:42,804 INFO [default] loading scene
+2022-05-04 11:49:42,805 INFO [default] loading scene
+2022-05-04 11:49:42,805 INFO [default] checking Scene Objects ...
+2022-05-04 11:49:42,805 INFO [default] checking World Objects ...
+2022-05-04 11:49:42,805 INFO [default] checking Screen Objects ...
+2022-05-04 11:49:42,805 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:49:42,805 INFO [default] Setting up Collision rules ...
+2022-05-04 11:49:42,805 INFO [default] Setting up the player ...
+2022-05-04 11:49:55,387 INFO [default] Resource path : resource/font
+2022-05-04 11:49:55,388 INFO [default] loaded : Sansation
+2022-05-04 11:49:55,388 INFO [default] resource path : resource/sound
+2022-05-04 11:49:55,388 INFO [default] Resource path : resource/music
+2022-05-04 11:49:55,389 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:49:55,389 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:49:55,391 INFO [default] Resource path : resource/texture
+2022-05-04 11:49:55,391 INFO [default] Resource path : resource/animation
+2022-05-04 11:49:55,671 INFO [default] loading scene
+2022-05-04 11:49:55,673 INFO [default] loading scene
+2022-05-04 11:49:55,673 INFO [default] checking Scene Objects ...
+2022-05-04 11:49:55,673 INFO [default] checking World Objects ...
+2022-05-04 11:49:55,673 INFO [default] checking Screen Objects ...
+2022-05-04 11:49:55,673 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:49:55,673 INFO [default] Setting up Collision rules ...
+2022-05-04 11:49:55,673 INFO [default] Setting up the player ...
+2022-05-04 11:50:15,653 INFO [default] Resource path : resource/font
+2022-05-04 11:50:15,654 INFO [default] loaded : Sansation
+2022-05-04 11:50:15,654 INFO [default] resource path : resource/sound
+2022-05-04 11:50:15,655 INFO [default] Resource path : resource/music
+2022-05-04 11:50:15,655 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:50:15,655 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:50:15,657 INFO [default] Resource path : resource/texture
+2022-05-04 11:50:15,657 INFO [default] Resource path : resource/animation
+2022-05-04 11:50:15,935 INFO [default] loading scene
+2022-05-04 11:50:15,936 INFO [default] loading scene
+2022-05-04 11:50:15,936 INFO [default] checking Scene Objects ...
+2022-05-04 11:50:15,936 INFO [default] checking World Objects ...
+2022-05-04 11:50:15,936 INFO [default] checking Screen Objects ...
+2022-05-04 11:50:15,936 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:50:15,936 INFO [default] Setting up Collision rules ...
+2022-05-04 11:50:15,937 INFO [default] Setting up the player ...
+2022-05-04 11:50:30,255 INFO [default] Resource path : resource/font
+2022-05-04 11:50:30,256 INFO [default] loaded : Sansation
+2022-05-04 11:50:30,256 INFO [default] resource path : resource/sound
+2022-05-04 11:50:30,256 INFO [default] Resource path : resource/music
+2022-05-04 11:50:30,257 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:50:30,257 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:50:30,259 INFO [default] Resource path : resource/texture
+2022-05-04 11:50:30,259 INFO [default] Resource path : resource/animation
+2022-05-04 11:50:30,541 INFO [default] loading scene
+2022-05-04 11:50:30,542 INFO [default] loading scene
+2022-05-04 11:50:30,542 INFO [default] checking Scene Objects ...
+2022-05-04 11:50:30,542 INFO [default] checking World Objects ...
+2022-05-04 11:50:30,542 INFO [default] checking Screen Objects ...
+2022-05-04 11:50:30,542 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:50:30,542 INFO [default] Setting up Collision rules ...
+2022-05-04 11:50:30,542 INFO [default] Setting up the player ...
+2022-05-04 11:50:42,238 INFO [default] Resource path : resource/font
+2022-05-04 11:50:42,239 INFO [default] loaded : Sansation
+2022-05-04 11:50:42,240 INFO [default] resource path : resource/sound
+2022-05-04 11:50:42,240 INFO [default] Resource path : resource/music
+2022-05-04 11:50:42,240 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:50:42,240 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:50:42,243 INFO [default] Resource path : resource/texture
+2022-05-04 11:50:42,243 INFO [default] Resource path : resource/animation
+2022-05-04 11:50:42,515 INFO [default] loading scene
+2022-05-04 11:50:42,516 INFO [default] loading scene
+2022-05-04 11:50:42,517 INFO [default] checking Scene Objects ...
+2022-05-04 11:50:42,517 INFO [default] checking World Objects ...
+2022-05-04 11:50:42,517 INFO [default] checking Screen Objects ...
+2022-05-04 11:50:42,517 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:50:42,517 INFO [default] Setting up Collision rules ...
+2022-05-04 11:50:42,517 INFO [default] Setting up the player ...
+2022-05-04 11:50:54,738 INFO [default] Resource path : resource/font
+2022-05-04 11:50:54,739 INFO [default] loaded : Sansation
+2022-05-04 11:50:54,739 INFO [default] resource path : resource/sound
+2022-05-04 11:50:54,740 INFO [default] Resource path : resource/music
+2022-05-04 11:50:54,740 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:50:54,740 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:50:54,742 INFO [default] Resource path : resource/texture
+2022-05-04 11:50:54,743 INFO [default] Resource path : resource/animation
+2022-05-04 11:50:55,015 INFO [default] loading scene
+2022-05-04 11:50:55,017 INFO [default] loading scene
+2022-05-04 11:50:55,017 INFO [default] checking Scene Objects ...
+2022-05-04 11:50:55,017 INFO [default] checking World Objects ...
+2022-05-04 11:50:55,017 INFO [default] checking Screen Objects ...
+2022-05-04 11:50:55,017 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:50:55,017 INFO [default] Setting up Collision rules ...
+2022-05-04 11:50:55,017 INFO [default] Setting up the player ...
+2022-05-04 11:51:42,839 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-04 11:51:42,841 INFO [default] nero development engine starting
+2022-05-04 11:51:42,841 INFO [default] loading engine configuration
+2022-05-04 11:51:42,841 INFO [default] setting up sfml render window
+2022-05-04 11:51:42,848 INFO [default] building startup screen
+2022-05-04 11:51:42,853 INFO [default] starting background task
+2022-05-04 11:51:42,988 INFO [default] building resource manager
+2022-05-04 11:51:42,993 INFO [default] loading font resources
+2022-05-04 11:51:42,993 INFO [default] Resource path : resource/font
+2022-05-04 11:51:42,995 INFO [default] loaded : Sansation
+2022-05-04 11:51:42,995 INFO [default] loading sound resources
+2022-05-04 11:51:42,995 INFO [default] resource path : resource/sound
+2022-05-04 11:51:42,995 INFO [default] loading music resources
+2022-05-04 11:51:42,996 INFO [default] Resource path : resource/music
+2022-05-04 11:51:42,996 INFO [default] loading texture resources
+2022-05-04 11:51:42,996 INFO [default] Resource path : resource/texture
+2022-05-04 11:51:42,996 INFO [default] loading animation resources
+2022-05-04 11:51:42,996 INFO [default] Resource path : resource/animation
+2022-05-04 11:51:42,997 INFO [default] building engine-ui
+2022-05-04 11:51:43,155 INFO [default] providing engine setting to engine-ui
+2022-05-04 11:51:43,155 INFO [default] providing resource manager to engine-ui
+2022-05-04 11:51:43,155 INFO [default] building engine interface
+2022-05-04 11:51:48,020 INFO [default] building camera
+2022-05-04 11:51:48,020 INFO [default] building scene manager
+2022-05-04 11:51:48,020 INFO [default] adjusting background task time
+2022-05-04 11:51:48,020 INFO [default] adding the default scene
+2022-05-04 11:51:48,020 INFO [default] registering all scenes
+2022-05-04 11:51:48,020 INFO [default] adding scene : SimpleGame
+2022-05-04 11:51:48,222 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:51:48,222 INFO [default] loading scene
+2022-05-04 11:51:48,223 INFO [default] loading scene
+2022-05-04 11:51:48,224 INFO [default] loading scene
+2022-05-04 11:51:48,224 INFO [default] scene registration complete
+2022-05-04 11:51:48,224 INFO [default] setting up the engine-ui
+2022-05-04 11:51:48,225 INFO [default] update engine-ui log
+2022-05-04 11:51:48,225 INFO [default] Nero Game Engine --- Log file 4/5/2022 11:51:48
+
+2022-05-04 11:51:48,225 INFO [default] Restoring last Scene
+2022-05-04 11:51:48,225 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-04 11:51:48,239 INFO [default] Background task completed
+2022-05-04 11:51:48,239 INFO [default] Nero Development Engine started successfully
+2022-05-04 11:51:51,847 INFO [default] loading camera state
+2022-05-04 11:52:07,553 INFO [default] current mode : Scene - Mesh
+2022-05-04 11:52:21,553 INFO [default] current mode : Scene - Object
+2022-05-04 11:52:30,713 INFO [default] adding Mesh Object of Type [Polygon]
+2022-05-04 11:52:35,554 INFO [default] current mode : Scene - Mesh
+2022-05-04 11:52:55,803 INFO [default] loading scene
+2022-05-04 11:53:06,270 INFO [default] loading scene
+2022-05-04 11:53:06,653 INFO [default] loading scene
+2022-05-04 11:53:06,970 INFO [default] loading scene
+2022-05-04 11:53:07,587 INFO [default] loading scene
+2022-05-04 11:53:50,808 INFO [default] current mode : Scene - Object
+2022-05-04 11:53:54,765 INFO [default] changing Mesh Type to : Static Mesh
+2022-05-04 11:53:59,672 INFO [default] saving Scene [SimpleGame] to Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:54:00,958 INFO [default] playing [SimpleGame]
+2022-05-04 11:54:00,960 INFO [default] checking Scene Objects ...
+2022-05-04 11:54:00,960 INFO [default] checking World Objects ...
+2022-05-04 11:54:00,960 INFO [default] checking Screen Objects ...
+2022-05-04 11:54:00,961 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:54:00,961 INFO [default] Setting up Collision rules ...
+2022-05-04 11:54:00,962 INFO [default] Setting up the player ...
+2022-05-04 11:54:00,962 INFO [default] current mode : Scene - Play
+2022-05-04 11:54:16,977 INFO [default] current mode : Scene - Object
+2022-05-04 11:54:30,443 INFO [default] adding Mesh Object of Type [Polygon]
+2022-05-04 11:54:41,428 INFO [default] current mode : Scene - Mesh
+2022-05-04 11:54:51,295 INFO [default] current mode : Scene - Object
+2022-05-04 11:54:59,811 INFO [default] changing Mesh Type to : Dynamic Mesh
+2022-05-04 11:55:01,592 INFO [default] changing Mesh Type to : Static Mesh
+2022-05-04 11:55:08,962 INFO [default] saving Scene [SimpleGame] to Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:55:10,969 INFO [default] closing the Engine
+2022-05-04 11:55:10,969 INFO [default] stopping music
+2022-05-04 11:55:10,970 INFO [default] saving Engine Settings
+2022-05-04 11:55:10,971 INFO [default] saving all Scenes
+2022-05-04 11:55:11,034 INFO [default] 
+ ## -- Engine closed at 4/5/2022 11:55:11-- ###
+
+2022-05-04 11:55:15,740 INFO [default] Resource path : resource/font
+2022-05-04 11:55:15,741 INFO [default] loaded : Sansation
+2022-05-04 11:55:15,741 INFO [default] resource path : resource/sound
+2022-05-04 11:55:15,741 INFO [default] Resource path : resource/music
+2022-05-04 11:55:15,741 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:55:15,741 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:55:15,744 INFO [default] Resource path : resource/texture
+2022-05-04 11:55:15,744 INFO [default] Resource path : resource/animation
+2022-05-04 11:55:16,022 INFO [default] loading scene
+2022-05-04 11:55:16,024 INFO [default] loading scene
+2022-05-04 11:55:16,024 INFO [default] checking Scene Objects ...
+2022-05-04 11:55:16,024 INFO [default] checking World Objects ...
+2022-05-04 11:55:16,024 INFO [default] checking Screen Objects ...
+2022-05-04 11:55:16,024 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:55:16,024 INFO [default] Setting up Collision rules ...
+2022-05-04 11:55:16,024 INFO [default] Setting up the player ...
+2022-05-04 11:55:52,389 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-04 11:55:52,389 INFO [default] nero development engine starting
+2022-05-04 11:55:52,389 INFO [default] loading engine configuration
+2022-05-04 11:55:52,390 INFO [default] setting up sfml render window
+2022-05-04 11:55:52,396 INFO [default] building startup screen
+2022-05-04 11:55:52,401 INFO [default] starting background task
+2022-05-04 11:55:52,514 INFO [default] building resource manager
+2022-05-04 11:55:52,521 INFO [default] loading font resources
+2022-05-04 11:55:52,523 INFO [default] Resource path : resource/font
+2022-05-04 11:55:52,524 INFO [default] loaded : Sansation
+2022-05-04 11:55:52,524 INFO [default] loading sound resources
+2022-05-04 11:55:52,524 INFO [default] resource path : resource/sound
+2022-05-04 11:55:52,524 INFO [default] loading music resources
+2022-05-04 11:55:52,524 INFO [default] Resource path : resource/music
+2022-05-04 11:55:52,525 INFO [default] loading texture resources
+2022-05-04 11:55:52,525 INFO [default] Resource path : resource/texture
+2022-05-04 11:55:52,525 INFO [default] loading animation resources
+2022-05-04 11:55:52,525 INFO [default] Resource path : resource/animation
+2022-05-04 11:55:52,525 INFO [default] building engine-ui
+2022-05-04 11:55:52,685 INFO [default] providing engine setting to engine-ui
+2022-05-04 11:55:52,685 INFO [default] providing resource manager to engine-ui
+2022-05-04 11:55:52,685 INFO [default] building engine interface
+2022-05-04 11:55:57,039 INFO [default] building camera
+2022-05-04 11:55:57,039 INFO [default] building scene manager
+2022-05-04 11:55:57,039 INFO [default] adjusting background task time
+2022-05-04 11:55:57,039 INFO [default] adding the default scene
+2022-05-04 11:55:57,039 INFO [default] registering all scenes
+2022-05-04 11:55:57,039 INFO [default] adding scene : SimpleGame
+2022-05-04 11:55:57,234 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:55:57,234 INFO [default] loading scene
+2022-05-04 11:55:57,236 INFO [default] loading scene
+2022-05-04 11:55:57,237 INFO [default] loading scene
+2022-05-04 11:55:57,238 INFO [default] scene registration complete
+2022-05-04 11:55:57,238 INFO [default] setting up the engine-ui
+2022-05-04 11:55:57,238 INFO [default] update engine-ui log
+2022-05-04 11:55:57,238 INFO [default] Nero Game Engine --- Log file 4/5/2022 11:55:57
+
+2022-05-04 11:55:57,238 INFO [default] Restoring last Scene
+2022-05-04 11:55:57,239 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-04 11:55:57,252 INFO [default] Background task completed
+2022-05-04 11:55:57,252 INFO [default] Nero Development Engine started successfully
+2022-05-04 11:56:07,182 INFO [default] loading scene
+2022-05-04 11:56:17,349 INFO [default] loading scene
+2022-05-04 11:56:19,967 INFO [default] saving Scene [SimpleGame] to Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:56:21,392 INFO [default] closing the Engine
+2022-05-04 11:56:21,392 INFO [default] stopping music
+2022-05-04 11:56:21,392 INFO [default] saving Engine Settings
+2022-05-04 11:56:21,393 INFO [default] saving all Scenes
+2022-05-04 11:56:21,451 INFO [default] 
+ ## -- Engine closed at 4/5/2022 11:56:21-- ###
+
+2022-05-04 11:56:25,290 INFO [default] Resource path : resource/font
+2022-05-04 11:56:25,291 INFO [default] loaded : Sansation
+2022-05-04 11:56:25,291 INFO [default] resource path : resource/sound
+2022-05-04 11:56:25,291 INFO [default] Resource path : resource/music
+2022-05-04 11:56:25,292 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:56:25,292 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:56:25,294 INFO [default] Resource path : resource/texture
+2022-05-04 11:56:25,295 INFO [default] Resource path : resource/animation
+2022-05-04 11:56:25,574 INFO [default] loading scene
+2022-05-04 11:56:25,576 INFO [default] loading scene
+2022-05-04 11:56:25,576 INFO [default] checking Scene Objects ...
+2022-05-04 11:56:25,576 INFO [default] checking World Objects ...
+2022-05-04 11:56:25,576 INFO [default] checking Screen Objects ...
+2022-05-04 11:56:25,576 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:56:25,576 INFO [default] Setting up Collision rules ...
+2022-05-04 11:56:25,576 INFO [default] Setting up the player ...
+2022-05-04 11:56:39,711 INFO [default] Resource path : resource/font
+2022-05-04 11:56:39,712 INFO [default] loaded : Sansation
+2022-05-04 11:56:39,712 INFO [default] resource path : resource/sound
+2022-05-04 11:56:39,712 INFO [default] Resource path : resource/music
+2022-05-04 11:56:39,713 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:56:39,713 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:56:39,715 INFO [default] Resource path : resource/texture
+2022-05-04 11:56:39,716 INFO [default] Resource path : resource/animation
+2022-05-04 11:56:39,994 INFO [default] loading scene
+2022-05-04 11:56:39,996 INFO [default] loading scene
+2022-05-04 11:56:39,996 INFO [default] checking Scene Objects ...
+2022-05-04 11:56:39,997 INFO [default] checking World Objects ...
+2022-05-04 11:56:39,997 INFO [default] checking Screen Objects ...
+2022-05-04 11:56:39,997 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:56:39,997 INFO [default] Setting up Collision rules ...
+2022-05-04 11:56:39,997 INFO [default] Setting up the player ...
+2022-05-04 11:57:07,048 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-04 11:57:07,048 INFO [default] nero development engine starting
+2022-05-04 11:57:07,048 INFO [default] loading engine configuration
+2022-05-04 11:57:07,048 INFO [default] setting up sfml render window
+2022-05-04 11:57:07,055 INFO [default] building startup screen
+2022-05-04 11:57:07,060 INFO [default] starting background task
+2022-05-04 11:57:07,188 INFO [default] building resource manager
+2022-05-04 11:57:07,190 INFO [default] loading font resources
+2022-05-04 11:57:07,190 INFO [default] Resource path : resource/font
+2022-05-04 11:57:07,191 INFO [default] loaded : Sansation
+2022-05-04 11:57:07,191 INFO [default] loading sound resources
+2022-05-04 11:57:07,191 INFO [default] resource path : resource/sound
+2022-05-04 11:57:07,191 INFO [default] loading music resources
+2022-05-04 11:57:07,191 INFO [default] Resource path : resource/music
+2022-05-04 11:57:07,191 INFO [default] loading texture resources
+2022-05-04 11:57:07,191 INFO [default] Resource path : resource/texture
+2022-05-04 11:57:07,191 INFO [default] loading animation resources
+2022-05-04 11:57:07,191 INFO [default] Resource path : resource/animation
+2022-05-04 11:57:07,191 INFO [default] building engine-ui
+2022-05-04 11:57:07,358 INFO [default] providing engine setting to engine-ui
+2022-05-04 11:57:07,358 INFO [default] providing resource manager to engine-ui
+2022-05-04 11:57:07,358 INFO [default] building engine interface
+2022-05-04 11:57:11,767 INFO [default] building camera
+2022-05-04 11:57:11,767 INFO [default] building scene manager
+2022-05-04 11:57:11,767 INFO [default] adjusting background task time
+2022-05-04 11:57:11,767 INFO [default] adding the default scene
+2022-05-04 11:57:11,767 INFO [default] registering all scenes
+2022-05-04 11:57:11,768 INFO [default] adding scene : SimpleGame
+2022-05-04 11:57:11,959 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:57:11,959 INFO [default] loading scene
+2022-05-04 11:57:11,960 INFO [default] loading scene
+2022-05-04 11:57:11,962 INFO [default] loading scene
+2022-05-04 11:57:11,962 INFO [default] scene registration complete
+2022-05-04 11:57:11,962 INFO [default] setting up the engine-ui
+2022-05-04 11:57:11,962 INFO [default] update engine-ui log
+2022-05-04 11:57:11,963 INFO [default] Nero Game Engine --- Log file 4/5/2022 11:57:11
+
+2022-05-04 11:57:11,963 INFO [default] Restoring last Scene
+2022-05-04 11:57:11,963 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-04 11:57:11,977 INFO [default] Background task completed
+2022-05-04 11:57:11,977 INFO [default] Nero Development Engine started successfully
+2022-05-04 11:57:28,236 INFO [default] loading scene
+2022-05-04 11:57:30,098 INFO [default] saving Scene [SimpleGame] to Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:57:36,415 INFO [default] saving Scene [SimpleGame] to Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:57:42,865 INFO [default] saving Scene [SimpleGame] to Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:57:44,367 INFO [default] closing the Engine
+2022-05-04 11:57:44,368 INFO [default] stopping music
+2022-05-04 11:57:44,368 INFO [default] saving Engine Settings
+2022-05-04 11:57:44,369 INFO [default] saving all Scenes
+2022-05-04 11:57:44,423 INFO [default] 
+ ## -- Engine closed at 4/5/2022 11:57:44-- ###
+
+2022-05-04 11:57:46,322 INFO [default] Nero Game Engine v1.0.0 Copyright (c) 2016-2022 sk-landry
+2022-05-04 11:57:46,322 INFO [default] nero development engine starting
+2022-05-04 11:57:46,322 INFO [default] loading engine configuration
+2022-05-04 11:57:46,322 INFO [default] setting up sfml render window
+2022-05-04 11:57:46,329 INFO [default] building startup screen
+2022-05-04 11:57:46,334 INFO [default] starting background task
+2022-05-04 11:57:46,437 INFO [default] building resource manager
+2022-05-04 11:57:46,439 INFO [default] loading font resources
+2022-05-04 11:57:46,439 INFO [default] Resource path : resource/font
+2022-05-04 11:57:46,440 INFO [default] loaded : Sansation
+2022-05-04 11:57:46,440 INFO [default] loading sound resources
+2022-05-04 11:57:46,440 INFO [default] resource path : resource/sound
+2022-05-04 11:57:46,440 INFO [default] loading music resources
+2022-05-04 11:57:46,440 INFO [default] Resource path : resource/music
+2022-05-04 11:57:46,440 INFO [default] loading texture resources
+2022-05-04 11:57:46,440 INFO [default] Resource path : resource/texture
+2022-05-04 11:57:46,441 INFO [default] loading animation resources
+2022-05-04 11:57:46,441 INFO [default] Resource path : resource/animation
+2022-05-04 11:57:46,441 INFO [default] building engine-ui
+2022-05-04 11:57:46,612 INFO [default] providing engine setting to engine-ui
+2022-05-04 11:57:46,612 INFO [default] providing resource manager to engine-ui
+2022-05-04 11:57:46,612 INFO [default] building engine interface
+2022-05-04 11:57:51,297 INFO [default] building camera
+2022-05-04 11:57:51,297 INFO [default] building scene manager
+2022-05-04 11:57:51,297 INFO [default] adjusting background task time
+2022-05-04 11:57:51,297 INFO [default] adding the default scene
+2022-05-04 11:57:51,297 INFO [default] registering all scenes
+2022-05-04 11:57:51,297 INFO [default] adding scene : SimpleGame
+2022-05-04 11:57:51,491 INFO [default] save file detected : Nero/SimpleGame/SimpleGame.json
+2022-05-04 11:57:51,491 INFO [default] loading scene
+2022-05-04 11:57:51,492 INFO [default] loading scene
+2022-05-04 11:57:51,494 INFO [default] loading scene
+2022-05-04 11:57:51,494 INFO [default] scene registration complete
+2022-05-04 11:57:51,494 INFO [default] setting up the engine-ui
+2022-05-04 11:57:51,495 INFO [default] update engine-ui log
+2022-05-04 11:57:51,495 INFO [default] Nero Game Engine --- Log file 4/5/2022 11:57:51
+
+2022-05-04 11:57:51,495 INFO [default] Restoring last Scene
+2022-05-04 11:57:51,496 INFO [default] ## -- current Scene [SimpleGame] -- ## 
+
+2022-05-04 11:57:51,509 INFO [default] Background task completed
+2022-05-04 11:57:51,509 INFO [default] Nero Development Engine started successfully
+2022-05-04 11:57:53,839 INFO [default] closing the Engine
+2022-05-04 11:57:53,839 INFO [default] stopping music
+2022-05-04 11:57:53,840 INFO [default] saving Engine Settings
+2022-05-04 11:57:53,841 INFO [default] saving all Scenes
+2022-05-04 11:57:53,899 INFO [default] 
+ ## -- Engine closed at 4/5/2022 11:57:53-- ###
+
+2022-05-04 11:57:57,330 INFO [default] Resource path : resource/font
+2022-05-04 11:57:57,331 INFO [default] loaded : Sansation
+2022-05-04 11:57:57,331 INFO [default] resource path : resource/sound
+2022-05-04 11:57:57,331 INFO [default] Resource path : resource/music
+2022-05-04 11:57:57,331 INFO [default] ///////////////////////// LOADING SHADER //////////////////////
+2022-05-04 11:57:57,331 INFO [default] Shader resource path : resource/shader
+2022-05-04 11:57:57,333 INFO [default] Resource path : resource/texture
+2022-05-04 11:57:57,334 INFO [default] Resource path : resource/animation
+2022-05-04 11:57:57,611 INFO [default] loading scene
+2022-05-04 11:57:57,613 INFO [default] loading scene
+2022-05-04 11:57:57,614 INFO [default] checking Scene Objects ...
+2022-05-04 11:57:57,614 INFO [default] checking World Objects ...
+2022-05-04 11:57:57,614 INFO [default] checking Screen Objects ...
+2022-05-04 11:57:57,614 INFO [default] SimpleGame Scene v0.1
+2022-05-04 11:57:57,614 INFO [default] Setting up Collision rules ...
+2022-05-04 11:57:57,614 INFO [default] Setting up the player ...

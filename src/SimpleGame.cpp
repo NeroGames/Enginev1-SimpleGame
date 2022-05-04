@@ -62,13 +62,16 @@ namespace ng
 	    collisionRule.canCollide(CategoryPool.player, CategoryPool.ground);
 	    collisionRule.canCollide(CategoryPool.player, CategoryPool.door);
 	    collisionRule.canCollide(CategoryPool.player, CategoryPool.collectible);
+	    collisionRule.canCollide(CategoryPool.player, CategoryPool.wall);
 	    collisionRule.apply(getWorld());
+
+	    getContext().camera->setZoom(-40.f);
 
 	    log("Setting up the player ...");
     	mPlayer.setObject(getObjectManager()->findObject(ObjectPool.player));
     	mPlayer.setLog(getLog());
     	setCameraTarget(getObjectManager()->findObject(ObjectPool.player));
-	}
+ 	}
 
 	void SimpleGame::handleEvent(const sf::Event& event)
     {

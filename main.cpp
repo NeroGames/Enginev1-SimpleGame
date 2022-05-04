@@ -29,9 +29,7 @@
 
     int main()
     {
-        auto startupScreen = std::make_shared<ng::LoadingScreen>();
-
-        nero::RenderEngine engine(startupScreen);
+        nero::RenderEngine engine;
             engine.setScene<ng::SimpleGame>("SimpleGame");
         engine.run();
 
